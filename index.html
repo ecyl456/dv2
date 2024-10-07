@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<style type="text/css">
+    h1 {
+        font-size: large;
+        color: black;
+        justify-content: center;
+        text-align: center;
+    }
+
+    div {
+        justify-content: center;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 5%;
+        background-color: #2196F3;
+        padding: 10px;
+    }
+
+    .grid-container .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    #text {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        font-size: 20px;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+    <script src="vegalite.js"></script>
+    <title>Global Education and Income</title>
+</head>
+
+<body>
+    <h1>Global Education and Income</h1>
+    <div class="grid-container">
+        <div class="grid-item">
+            <div id="propSym"></div>
+
+        </div>
+        <div class="grid-item" id="text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+            type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+            leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+            release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+            software like Aldus PageMaker including versions of Lorem Ipsum.
+
+        </div>
+    </div>
+    <hr>
+
+    <div id="heatmap">
+    </div>
+    <hr>
+    <div class="grid-container">
+
+        <div class="grid-item">
+            <div id="choropleth">
+            </div>
+        </div>
+        <div class="grid-item" id="text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+            of
+            type and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+            the
+            leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+            the
+            release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+            software like Aldus PageMaker including versions of Lorem Ipsum.
+
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
