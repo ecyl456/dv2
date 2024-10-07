@@ -1,0 +1,887 @@
+Entity,Code,Year,Human capital index (HCI) (scale 0-1),Continent
+Abkhazia,OWID_ABK,2015,,Asia
+Afghanistan,AFG,2015,,Asia
+Afghanistan,AFG,2017,0.389,
+Afghanistan,AFG,2018,0.39348924,
+Afghanistan,AFG,2020,0.40028414,
+Akrotiri and Dhekelia,OWID_AKD,2015,,Asia
+Aland Islands,ALA,2015,,Europe
+Albania,ALB,2010,0.54360294,
+Albania,ALB,2015,,Europe
+Albania,ALB,2017,0.621,
+Albania,ALB,2018,0.6286663,
+Albania,ALB,2020,0.63425094,
+Algeria,DZA,2010,0.5312829,
+Algeria,DZA,2015,,Africa
+Algeria,DZA,2017,0.523,
+Algeria,DZA,2018,0.5319939,
+Algeria,DZA,2020,0.53455645,
+American Samoa,ASM,2015,,Oceania
+Andorra,AND,2015,,Europe
+Angola,AGO,2015,,Africa
+Angola,AGO,2017,0.361,
+Angola,AGO,2018,0.36019096,
+Angola,AGO,2020,0.3624054,
+Anguilla,AIA,2015,,North America
+Antarctica,ATA,2015,,Antarctica
+Antigua and Barbuda,ATG,2015,,North America
+Antigua and Barbuda,ATG,2018,0.57821697,
+Antigua and Barbuda,ATG,2020,0.5957039,
+Argentina,ARG,2010,0.58855706,
+Argentina,ARG,2015,,South America
+Argentina,ARG,2017,0.611,
+Argentina,ARG,2018,0.61736673,
+Argentina,ARG,2020,0.6021447,
+Armenia,ARM,2015,,Asia
+Armenia,ARM,2017,0.572,
+Armenia,ARM,2018,0.58172596,
+Armenia,ARM,2020,0.5789988,
+Aruba,ABW,2015,,North America
+Australia,AUS,2010,0.7548438,
+Australia,AUS,2015,,Oceania
+Australia,AUS,2017,0.803,
+Australia,AUS,2018,0.78083396,
+Australia,AUS,2020,0.77023953,
+Austria,AUT,2010,0.7377821,
+Austria,AUT,2015,,Europe
+Austria,AUT,2017,0.793,
+Austria,AUT,2018,0.7686731,
+Austria,AUT,2020,0.74673975,
+Austria-Hungary,OWID_AUH,2015,,Europe
+Azerbaijan,AZE,2010,0.49745739,
+Azerbaijan,AZE,2015,,Asia
+Azerbaijan,AZE,2017,0.597,
+Azerbaijan,AZE,2018,0.62931216,
+Azerbaijan,AZE,2020,0.57776755,
+Baden,OWID_BAD,2015,,Europe
+Bahamas,BHS,2015,,North America
+Bahrain,BHR,2010,0.6049123,
+Bahrain,BHR,2015,,Asia
+Bahrain,BHR,2017,0.668,
+Bahrain,BHR,2018,0.66389877,
+Bahrain,BHR,2020,0.652472,
+Bangladesh,BGD,2015,,Asia
+Bangladesh,BGD,2017,0.479,
+Bangladesh,BGD,2018,0.45855328,
+Bangladesh,BGD,2020,0.46403643,
+Barbados,BRB,2015,,North America
+Bavaria,OWID_BAV,2015,,Europe
+Belarus,BLR,2015,,Europe
+Belarus,BLR,2020,0.7000782,
+Belgium,BEL,2010,0.75272685,
+Belgium,BEL,2015,,Europe
+Belgium,BEL,2017,0.757,
+Belgium,BEL,2018,0.76275975,
+Belgium,BEL,2020,0.76041967,
+Belize,BLZ,2015,,North America
+Benin,BEN,2010,0.3655848,
+Benin,BEN,2015,,Africa
+Benin,BEN,2017,0.406,
+Benin,BEN,2018,0.39695033,
+Benin,BEN,2020,0.40029073,
+Bermuda,BMU,2015,,North America
+Bhutan,BTN,2015,,Asia
+Bhutan,BTN,2020,0.47529703,
+Bolivia,BOL,2015,,South America
+Bonaire Sint Eustatius and Saba,BES,2015,,North America
+Bosnia and Herzegovina,BIH,2015,,Europe
+Bosnia and Herzegovina,BIH,2017,0.618,
+Bosnia and Herzegovina,BIH,2018,0.619265,
+Bosnia and Herzegovina,BIH,2020,0.5796841,
+Botswana,BWA,2010,0.3677121,
+Botswana,BWA,2015,,Africa
+Botswana,BWA,2017,0.424,
+Botswana,BWA,2018,0.4125165,
+Botswana,BWA,2020,0.4140285,
+Bouvet Island,BVT,2015,,Antarctica
+Brazil,BRA,2010,0.5329525,
+Brazil,BRA,2015,,South America
+Brazil,BRA,2017,0.56,
+Brazil,BRA,2018,0.54572374,
+Brazil,BRA,2020,0.55149794,
+British Indian Ocean Territory,IOT,2015,,Asia
+British Virgin Islands,VGB,2015,,North America
+Brunei,BRN,2015,,Asia
+Brunei,BRN,2020,0.62639135,
+Bulgaria,BGR,2010,0.63661927,
+Bulgaria,BGR,2015,,Europe
+Bulgaria,BGR,2017,0.676,
+Bulgaria,BGR,2018,0.67027724,
+Bulgaria,BGR,2020,0.61389816,
+Burkina Faso,BFA,2010,0.31972128,
+Burkina Faso,BFA,2015,,Africa
+Burkina Faso,BFA,2017,0.369,
+Burkina Faso,BFA,2018,0.37828398,
+Burkina Faso,BFA,2020,0.38369194,
+Burundi,BDI,2010,0.3428755,
+Burundi,BDI,2015,,Africa
+Burundi,BDI,2017,0.38,
+Burundi,BDI,2018,0.3895748,
+Burundi,BDI,2020,0.38617063,
+Cambodia,KHM,2015,,Asia
+Cambodia,KHM,2017,0.493,
+Cambodia,KHM,2018,0.49068487,
+Cambodia,KHM,2020,0.49158987,
+Cameroon,CMR,2010,0.37978294,
+Cameroon,CMR,2015,,Africa
+Cameroon,CMR,2017,0.394,
+Cameroon,CMR,2018,0.39332068,
+Cameroon,CMR,2020,0.3974015,
+Canada,CAN,2010,0.77410376,
+Canada,CAN,2015,,North America
+Canada,CAN,2017,0.799,
+Canada,CAN,2018,0.80008996,
+Canada,CAN,2020,0.7975201,
+Cape Verde,CPV,2015,,Africa
+Cayman Islands,CYM,2015,,North America
+Central African Republic,CAF,2015,,Africa
+Central African Republic,CAF,2020,0.2916319,
+Chad,TCD,2010,0.28607464,
+Chad,TCD,2015,,Africa
+Chad,TCD,2017,0.293,
+Chad,TCD,2018,0.299029,
+Chad,TCD,2020,0.29978278,
+Channel Islands,OWID_CIS,2015,,Europe
+Chile,CHL,2010,0.62636,
+Chile,CHL,2015,,South America
+Chile,CHL,2017,0.674,
+Chile,CHL,2018,0.66526514,
+Chile,CHL,2020,0.6516042,
+China,CHN,2015,,Asia
+China,CHN,2017,0.673,
+China,CHN,2018,0.64709884,
+China,CHN,2020,0.65310264,
+Christmas Island,CXR,2015,,Asia
+Cocos Islands,CCK,2015,,Asia
+Colombia,COL,2010,0.5802495,
+Colombia,COL,2015,,South America
+Colombia,COL,2017,0.593,
+Colombia,COL,2018,0.59865385,
+Colombia,COL,2020,0.6043303,
+Comoros,COM,2015,,Africa
+Comoros,COM,2017,0.409,
+Comoros,COM,2018,0.40095013,
+Comoros,COM,2020,0.4046883,
+Congo,COG,2010,0.40927175,
+Congo,COG,2015,,Africa
+Congo,COG,2017,0.42,
+Congo,COG,2018,0.41783553,
+Congo,COG,2020,0.41926572,
+Cook Islands,COK,2015,,Oceania
+Costa Rica,CRI,2010,0.5977589,
+Costa Rica,CRI,2015,,North America
+Costa Rica,CRI,2017,0.619,
+Costa Rica,CRI,2018,0.6032588,
+Costa Rica,CRI,2020,0.62863505,
+Cote d'Ivoire,CIV,2010,0.3038381,
+Cote d'Ivoire,CIV,2015,,Africa
+Cote d'Ivoire,CIV,2017,0.353,
+Cote d'Ivoire,CIV,2018,0.36996835,
+Cote d'Ivoire,CIV,2020,0.37988934,
+Croatia,HRV,2010,0.69329935,
+Croatia,HRV,2015,,Europe
+Croatia,HRV,2017,0.723,
+Croatia,HRV,2018,0.72936565,
+Croatia,HRV,2020,0.70969397,
+Cuba,CUB,2015,,North America
+Curacao,CUW,2015,,North America
+Cyprus,CYP,2010,0.68636197,
+Cyprus,CYP,2015,,Europe
+Cyprus,CYP,2017,0.751,
+Cyprus,CYP,2018,0.75461704,
+Cyprus,CYP,2020,0.7555202,
+Czechia,CZE,2010,0.7269691,
+Czechia,CZE,2015,,Europe
+Czechia,CZE,2017,0.782,
+Czechia,CZE,2018,0.7645167,
+Czechia,CZE,2020,0.7522574,
+Czechoslovakia,OWID_CZS,2015,,Europe
+Democratic Republic of Congo,COD,2015,,Africa
+Democratic Republic of Congo,COD,2017,0.369,
+Democratic Republic of Congo,COD,2018,0.36452875,
+Democratic Republic of Congo,COD,2020,0.36636928,
+Denmark,DNK,2010,0.7487384,
+Denmark,DNK,2015,,Europe
+Denmark,DNK,2017,0.774,
+Denmark,DNK,2018,0.7708318,
+Denmark,DNK,2020,0.7550948,
+Djibouti,DJI,2015,,Africa
+Dominica,DMA,2015,,North America
+Dominica,DMA,2018,0.55173725,
+Dominica,DMA,2020,0.5447493,
+Dominican Republic,DOM,2015,,North America
+Dominican Republic,DOM,2017,0.492,
+Dominican Republic,DOM,2018,0.5068803,
+Dominican Republic,DOM,2020,0.5027669,
+East Germany,OWID_GDR,2015,,Europe
+East Timor,TLS,2010,0.4106656,
+East Timor,TLS,2015,,Asia
+East Timor,TLS,2017,0.434,
+East Timor,TLS,2018,0.4530519,
+East Timor,TLS,2020,0.45431453,
+Ecuador,ECU,2010,0.5258067,
+Ecuador,ECU,2015,,South America
+Ecuador,ECU,2017,0.602,
+Ecuador,ECU,2018,0.59621954,
+Ecuador,ECU,2020,0.59425485,
+Egypt,EGY,2010,0.47885305,
+Egypt,EGY,2015,,Africa
+Egypt,EGY,2017,0.486,
+Egypt,EGY,2018,0.49251235,
+Egypt,EGY,2020,0.49437466,
+El Salvador,SLV,2015,,North America
+El Salvador,SLV,2017,0.501,
+El Salvador,SLV,2018,0.5449857,
+El Salvador,SLV,2020,0.5461766,
+Equatorial Guinea,GNQ,2015,,Africa
+Eritrea,ERI,2015,,Africa
+Estonia,EST,2010,0.7256638,
+Estonia,EST,2015,,Europe
+Estonia,EST,2017,0.747,
+Estonia,EST,2018,0.7741253,
+Estonia,EST,2020,0.7772032,
+Eswatini,SWZ,2010,0.31076908,
+Eswatini,SWZ,2015,,Africa
+Eswatini,SWZ,2017,0.409,
+Eswatini,SWZ,2018,0.3695409,
+Eswatini,SWZ,2020,0.3725008,
+Ethiopia,ETH,2015,,Africa
+Ethiopia,ETH,2017,0.385,
+Ethiopia,ETH,2018,0.3841006,
+Ethiopia,ETH,2020,0.38278484,
+Ethiopia (former),OWID_ERE,2015,,Africa
+Falkland Islands,FLK,2015,,South America
+Faroe Islands,FRO,2015,,Europe
+Fiji,FJI,2015,,Oceania
+Fiji,FJI,2020,0.5085733,
+Finland,FIN,2010,0.8173615,
+Finland,FIN,2015,,Europe
+Finland,FIN,2017,0.814,
+Finland,FIN,2018,0.814484,
+Finland,FIN,2020,0.796001,
+France,FRA,2010,0.75689185,
+France,FRA,2015,,Europe
+France,FRA,2017,0.765,
+France,FRA,2018,0.7559603,
+France,FRA,2020,0.7627372,
+French Guiana,GUF,2015,,South America
+French Polynesia,PYF,2015,,Oceania
+French Southern Territories,ATF,2015,,Antarctica
+Gabon,GAB,2015,,Africa
+Gabon,GAB,2017,0.453,
+Gabon,GAB,2018,0.45638788,
+Gabon,GAB,2020,0.45761245,
+Gambia,GMB,2010,0.3716897,
+Gambia,GMB,2015,,Africa
+Gambia,GMB,2017,0.397,
+Gambia,GMB,2018,0.40329286,
+Gambia,GMB,2020,0.42157063,
+Georgia,GEO,2010,0.54114884,
+Georgia,GEO,2015,,Asia
+Georgia,GEO,2017,0.614,
+Georgia,GEO,2018,0.6090577,
+Georgia,GEO,2020,0.5689258,
+Germany,DEU,2010,0.7607403,
+Germany,DEU,2015,,Europe
+Germany,DEU,2017,0.795,
+Germany,DEU,2018,0.7637728,
+Germany,DEU,2020,0.75116247,
+Ghana,GHA,2015,,Africa
+Ghana,GHA,2017,0.439,
+Ghana,GHA,2018,0.4434901,
+Ghana,GHA,2020,0.4500564,
+Gibraltar,GIB,2015,,Europe
+Greece,GRC,2010,0.7148603,
+Greece,GRC,2015,,Europe
+Greece,GRC,2017,0.681,
+Greece,GRC,2018,0.69480586,
+Greece,GRC,2020,0.6900065,
+Greenland,GRL,2015,,North America
+Grenada,GRD,2015,,North America
+Grenada,GRD,2018,0.5411949,
+Grenada,GRD,2020,0.5650705,
+Guadeloupe,GLP,2015,,North America
+Guam,GUM,2015,,Oceania
+Guatemala,GTM,2010,0.4419408,
+Guatemala,GTM,2015,,North America
+Guatemala,GTM,2017,0.46,
+Guatemala,GTM,2018,0.45677122,
+Guatemala,GTM,2020,0.4612701,
+Guernsey,GGY,2015,,Europe
+Guinea,GIN,2015,,Africa
+Guinea,GIN,2017,0.374,
+Guinea,GIN,2018,0.3690826,
+Guinea,GIN,2020,0.37094247,
+Guinea-Bissau,GNB,2015,,Africa
+Guyana,GUY,2015,,South America
+Guyana,GUY,2017,0.495,
+Guyana,GUY,2018,0.49434304,
+Guyana,GUY,2020,0.49522647,
+Haiti,HTI,2015,,North America
+Haiti,HTI,2017,0.446,
+Haiti,HTI,2018,0.44478798,
+Haiti,HTI,2020,0.4465649,
+Hanover,OWID_HAN,2015,,Europe
+Heard Island and McDonald Islands,HMD,2015,,Antarctica
+Hesse Electoral,OWID_HSE,2015,,Europe
+Hesse Grand Ducal,OWID_HSG,2015,,Europe
+Honduras,HND,2015,,North America
+Honduras,HND,2017,0.49,
+Honduras,HND,2018,0.48030594,
+Honduras,HND,2020,0.48102313,
+Hong Kong,HKG,2010,0.7809076,
+Hong Kong,HKG,2015,,Asia
+Hong Kong,HKG,2017,0.822,
+Hong Kong,HKG,2018,0.82171804,
+Hong Kong,HKG,2020,0.81275654,
+Hungary,HUN,2010,0.68972987,
+Hungary,HUN,2015,,Europe
+Hungary,HUN,2017,0.703,
+Hungary,HUN,2018,0.7050646,
+Hungary,HUN,2020,0.6830873,
+Iceland,ISL,2010,0.7551776,
+Iceland,ISL,2015,,Europe
+Iceland,ISL,2017,0.74,
+Iceland,ISL,2018,0.7434311,
+Iceland,ISL,2020,0.7452819,
+India,IND,2015,,Asia
+India,IND,2017,0.44,
+India,IND,2018,0.4847958,
+India,IND,2020,0.4935109,
+Indonesia,IDN,2010,0.49636143,
+Indonesia,IDN,2015,,Asia
+Indonesia,IDN,2017,0.535,
+Indonesia,IDN,2018,0.53795725,
+Indonesia,IDN,2020,0.54003847,
+Iran,IRN,2010,0.56432194,
+Iran,IRN,2015,,Asia
+Iran,IRN,2017,0.591,
+Iran,IRN,2018,0.5922091,
+Iran,IRN,2020,0.5934045,
+Iraq,IRQ,2015,,Asia
+Iraq,IRQ,2017,0.398,
+Iraq,IRQ,2018,0.39948228,
+Iraq,IRQ,2020,0.4076433,
+Ireland,IRL,2010,0.7663025,
+Ireland,IRL,2015,,Europe
+Ireland,IRL,2017,0.806,
+Ireland,IRL,2018,0.81367534,
+Ireland,IRL,2020,0.792599,
+Isle of Man,IMN,2015,,Europe
+Israel,ISR,2010,0.71826905,
+Israel,ISR,2015,,Asia
+Israel,ISR,2017,0.763,
+Israel,ISR,2018,0.76306444,
+Israel,ISR,2020,0.7339953,
+Italy,ITA,2010,0.75026584,
+Italy,ITA,2015,,Europe
+Italy,ITA,2017,0.769,
+Italy,ITA,2018,0.7528804,
+Italy,ITA,2020,0.7278197,
+Jamaica,JAM,2015,,North America
+Jamaica,JAM,2017,0.544,
+Jamaica,JAM,2018,0.53927195,
+Jamaica,JAM,2020,0.5349779,
+Japan,JPN,2010,0.8161875,
+Japan,JPN,2015,,Asia
+Japan,JPN,2017,0.844,
+Japan,JPN,2018,0.8407092,
+Japan,JPN,2020,0.80471426,
+Jersey,JEY,2015,,Europe
+Jordan,JOR,2010,0.5565271,
+Jordan,JOR,2015,,Asia
+Jordan,JOR,2017,0.562,
+Jordan,JOR,2018,0.5469302,
+Jordan,JOR,2020,0.5531744,
+Kazakhstan,KAZ,2010,0.5940298,
+Kazakhstan,KAZ,2015,,Asia
+Kazakhstan,KAZ,2017,0.746,
+Kazakhstan,KAZ,2018,0.7770604,
+Kazakhstan,KAZ,2020,0.6285064,
+Kenya,KEN,2015,,Africa
+Kenya,KEN,2017,0.518,
+Kenya,KEN,2018,0.5421861,
+Kenya,KEN,2020,0.5467525,
+Kiribati,KIR,2015,,Oceania
+Kiribati,KIR,2017,0.479,
+Kiribati,KIR,2018,0.4707155,
+Kiribati,KIR,2020,0.49259293,
+Korea (former),OWID_KRU,2015,,Asia
+Kosovo,OWID_KOS,2015,,Europe
+Kosovo,OWID_KOS,2017,0.56,
+Kosovo,OWID_KOS,2018,0.569062,
+Kosovo,OWID_KOS,2020,0.56733173,
+Kuwait,KWT,2010,0.5717145,
+Kuwait,KWT,2015,,Asia
+Kuwait,KWT,2017,0.576,
+Kuwait,KWT,2018,0.56426024,
+Kuwait,KWT,2020,0.56258804,
+Kyrgyzstan,KGZ,2015,,Asia
+Kyrgyzstan,KGZ,2017,0.58,
+Kyrgyzstan,KGZ,2018,0.5935462,
+Kyrgyzstan,KGZ,2020,0.5966171,
+Laos,LAO,2015,,Asia
+Laos,LAO,2017,0.452,
+Laos,LAO,2018,0.45681542,
+Laos,LAO,2020,0.45666534,
+Latvia,LVA,2010,0.6764581,
+Latvia,LVA,2015,,Europe
+Latvia,LVA,2017,0.724,
+Latvia,LVA,2018,0.73835343,
+Latvia,LVA,2020,0.7065814,
+Lebanon,LBN,2015,,Asia
+Lebanon,LBN,2017,0.538,
+Lebanon,LBN,2018,0.524636,
+Lebanon,LBN,2020,0.5151255,
+Lesotho,LSO,2010,0.34088042,
+Lesotho,LSO,2015,,Africa
+Lesotho,LSO,2017,0.371,
+Lesotho,LSO,2018,0.39849252,
+Lesotho,LSO,2020,0.4003926,
+Liberia,LBR,2015,,Africa
+Liberia,LBR,2017,0.319,
+Liberia,LBR,2018,0.31757024,
+Liberia,LBR,2020,0.31901422,
+Libya,LBY,2015,,Africa
+Liechtenstein,LIE,2015,,Europe
+Lithuania,LTU,2010,0.68839,
+Lithuania,LTU,2015,,Europe
+Lithuania,LTU,2017,0.712,
+Lithuania,LTU,2018,0.72669524,
+Lithuania,LTU,2020,0.70604795,
+Luxembourg,LUX,2010,0.7002035,
+Luxembourg,LUX,2015,,Europe
+Luxembourg,LUX,2017,0.692,
+Luxembourg,LUX,2018,0.69236857,
+Luxembourg,LUX,2020,0.68614614,
+Macao,MAC,2010,0.64832515,
+Macao,MAC,2015,,Asia
+Macao,MAC,2017,0.759,
+Macao,MAC,2018,0.76328814,
+Macao,MAC,2020,0.7956716,
+Madagascar,MDG,2010,0.38865483,
+Madagascar,MDG,2015,,Africa
+Madagascar,MDG,2017,0.374,
+Madagascar,MDG,2018,0.38549268,
+Madagascar,MDG,2020,0.39199102,
+Malawi,MWI,2010,0.36382145,
+Malawi,MWI,2015,,Africa
+Malawi,MWI,2017,0.407,
+Malawi,MWI,2018,0.4110617,
+Malawi,MWI,2020,0.41324064,
+Malaysia,MYS,2010,0.58434504,
+Malaysia,MYS,2015,,Asia
+Malaysia,MYS,2017,0.622,
+Malaysia,MYS,2018,0.6325787,
+Malaysia,MYS,2020,0.61097616,
+Maldives,MDV,2015,,Asia
+Mali,MLI,2015,,Africa
+Mali,MLI,2017,0.317,
+Mali,MLI,2018,0.3215052,
+Mali,MLI,2020,0.31826958,
+Malta,MLT,2010,0.68021804,
+Malta,MLT,2015,,Europe
+Malta,MLT,2017,0.701,
+Malta,MLT,2018,0.70849055,
+Malta,MLT,2020,0.7092483,
+Marshall Islands,MHL,2015,,Oceania
+Marshall Islands,MHL,2018,0.40436763,
+Marshall Islands,MHL,2020,0.42339814,
+Martinique,MTQ,2015,,North America
+Mauritania,MRT,2015,,Africa
+Mauritania,MRT,2017,0.353,
+Mauritania,MRT,2018,0.3705915,
+Mauritania,MRT,2020,0.38154608,
+Mauritius,MUS,2010,0.60013884,
+Mauritius,MUS,2015,,Africa
+Mauritius,MUS,2017,0.626,
+Mauritius,MUS,2018,0.6232699,
+Mauritius,MUS,2020,0.62185925,
+Mayotte,MYT,2015,,Africa
+Mecklenburg Schwerin,OWID_MEC,2015,,Europe
+Mexico,MEX,2010,0.5891188,
+Mexico,MEX,2015,,North America
+Mexico,MEX,2017,0.607,
+Mexico,MEX,2018,0.6116571,
+Mexico,MEX,2020,0.61294985,
+Micronesia (country),FSM,2015,,Oceania
+Micronesia (country),FSM,2018,0.46641678,
+Micronesia (country),FSM,2020,0.50596654,
+Modena,OWID_MOD,2015,,Europe
+Moldova,MDA,2010,0.5557814,
+Moldova,MDA,2015,,Europe
+Moldova,MDA,2017,0.58,
+Moldova,MDA,2018,0.58176094,
+Moldova,MDA,2020,0.58415353,
+Monaco,MCO,2015,,Europe
+Mongolia,MNG,2015,,Asia
+Mongolia,MNG,2017,0.626,
+Mongolia,MNG,2018,0.6173093,
+Mongolia,MNG,2020,0.6143975,
+Montenegro,MNE,2010,0.5851715,
+Montenegro,MNE,2015,,Europe
+Montenegro,MNE,2017,0.615,
+Montenegro,MNE,2018,0.6228222,
+Montenegro,MNE,2020,0.6331818,
+Montserrat,MSR,2015,,North America
+Morocco,MAR,2010,0.47443458,
+Morocco,MAR,2015,,Africa
+Morocco,MAR,2017,0.5,
+Morocco,MAR,2018,0.492541,
+Morocco,MAR,2020,0.50411636,
+Mozambique,MOZ,2015,,Africa
+Mozambique,MOZ,2017,0.361,
+Mozambique,MOZ,2018,0.35546702,
+Mozambique,MOZ,2020,0.36211666,
+Myanmar,MMR,2015,,Asia
+Myanmar,MMR,2017,0.473,
+Myanmar,MMR,2018,0.4718325,
+Myanmar,MMR,2020,0.477652,
+Nagorno-Karabakh,OWID_NAG,2015,,Asia
+Namibia,NAM,2010,0.39370978,
+Namibia,NAM,2015,,Africa
+Namibia,NAM,2017,0.435,
+Namibia,NAM,2018,0.44507807,
+Namibia,NAM,2020,0.44643754,
+Nauru,NRU,2015,,Oceania
+Nauru,NRU,2020,0.5084121,
+Nepal,NPL,2015,,Asia
+Nepal,NPL,2017,0.49,
+Nepal,NPL,2018,0.4981924,
+Nepal,NPL,2020,0.5046018,
+Netherlands,NLD,2010,0.7970991,
+Netherlands,NLD,2015,,Europe
+Netherlands,NLD,2017,0.8,
+Netherlands,NLD,2018,0.8030386,
+Netherlands,NLD,2020,0.789915,
+Netherlands Antilles,ANT,2015,,North America
+New Caledonia,NCL,2015,,Oceania
+New Zealand,NZL,2010,0.7786913,
+New Zealand,NZL,2015,,Oceania
+New Zealand,NZL,2017,0.767,
+New Zealand,NZL,2018,0.771214,
+New Zealand,NZL,2020,0.77593243,
+Nicaragua,NIC,2015,,North America
+Nicaragua,NIC,2017,0.531,
+Nicaragua,NIC,2018,0.507381,
+Nicaragua,NIC,2020,0.50809824,
+Niger,NER,2015,,Africa
+Niger,NER,2017,0.316,
+Niger,NER,2018,0.31802946,
+Niger,NER,2020,0.31568518,
+Nigeria,NGA,2015,,Africa
+Nigeria,NGA,2017,0.342,
+Nigeria,NGA,2018,0.35475317,
+Nigeria,NGA,2020,0.36060983,
+Niue,NIU,2015,,Oceania
+Norfolk Island,NFK,2015,,Oceania
+North Korea,PRK,2015,,Asia
+North Macedonia,MKD,2010,0.53777397,
+North Macedonia,MKD,2015,,Europe
+North Macedonia,MKD,2017,0.534,
+North Macedonia,MKD,2018,0.53539205,
+North Macedonia,MKD,2020,0.5573492,
+Northern Cyprus,OWID_CYN,2015,,Asia
+Northern Mariana Islands,MNP,2015,,Oceania
+Norway,NOR,2010,0.77056706,
+Norway,NOR,2015,,Europe
+Norway,NOR,2017,0.771,
+Norway,NOR,2018,0.76853484,
+Norway,NOR,2020,0.77105117,
+Oman,OMN,2010,0.54755247,
+Oman,OMN,2015,,Asia
+Oman,OMN,2017,0.622,
+Oman,OMN,2018,0.61118734,
+Oman,OMN,2020,0.60811627,
+Pakistan,PAK,2015,,Asia
+Pakistan,PAK,2017,0.389,
+Pakistan,PAK,2018,0.3993036,
+Pakistan,PAK,2020,0.40607002,
+Palau,PLW,2015,,Oceania
+Palau,PLW,2018,0.56731063,
+Palau,PLW,2020,0.5881135,
+Palestine,PSE,2015,,Asia
+Palestine,PSE,2017,0.554,
+Palestine,PSE,2018,0.571729,
+Palestine,PSE,2020,0.57999665,
+Panama,PAN,2010,0.5131819,
+Panama,PAN,2015,,North America
+Panama,PAN,2017,0.532,
+Panama,PAN,2018,0.5139444,
+Panama,PAN,2020,0.501602,
+Papua New Guinea,PNG,2015,,Oceania
+Papua New Guinea,PNG,2017,0.384,
+Papua New Guinea,PNG,2018,0.42477205,
+Papua New Guinea,PNG,2020,0.429185,
+Paraguay,PRY,2010,0.5106007,
+Paraguay,PRY,2015,,South America
+Paraguay,PRY,2017,0.533,
+Paraguay,PRY,2018,0.527506,
+Paraguay,PRY,2020,0.52818006,
+Parma,OWID_PMA,2015,,Europe
+Peru,PER,2010,0.5453572,
+Peru,PER,2015,,South America
+Peru,PER,2017,0.586,
+Peru,PER,2018,0.5946153,
+Peru,PER,2020,0.60519266,
+Philippines,PHL,2015,,Asia
+Philippines,PHL,2017,0.548,
+Philippines,PHL,2018,0.5490156,
+Philippines,PHL,2020,0.5159621,
+Pitcairn,PCN,2015,,Oceania
+Poland,POL,2010,0.70144093,
+Poland,POL,2015,,Europe
+Poland,POL,2017,0.747,
+Poland,POL,2018,0.7602222,
+Poland,POL,2020,0.7530886,
+Portugal,PRT,2010,0.7426384,
+Portugal,PRT,2015,,Europe
+Portugal,PRT,2017,0.776,
+Portugal,PRT,2018,0.7834402,
+Portugal,PRT,2020,0.76894957,
+Puerto Rico,PRI,2015,,North America
+Qatar,QAT,2010,0.5908074,
+Qatar,QAT,2015,,Asia
+Qatar,QAT,2017,0.615,
+Qatar,QAT,2018,0.6348255,
+Qatar,QAT,2020,0.6377716,
+Republic of Vietnam,OWID_RVN,2015,,Asia
+Reunion,REU,2015,,Africa
+Romania,ROU,2010,0.5998825,
+Romania,ROU,2015,,Europe
+Romania,ROU,2017,0.601,
+Romania,ROU,2018,0.5944101,
+Romania,ROU,2020,0.58418787,
+Russia,RUS,2010,0.60054857,
+Russia,RUS,2015,,Europe
+Russia,RUS,2017,0.729,
+Russia,RUS,2018,0.72895044,
+Russia,RUS,2020,0.6814196,
+Rwanda,RWA,2015,,Africa
+Rwanda,RWA,2017,0.374,
+Rwanda,RWA,2018,0.37691203,
+Rwanda,RWA,2020,0.37955275,
+Saint Barthelemy,BLM,2015,,North America
+Saint Helena,SHN,2015,,Africa
+Saint Kitts and Nevis,KNA,2015,,North America
+Saint Kitts and Nevis,KNA,2018,0.5724744,
+Saint Kitts and Nevis,KNA,2020,0.58618164,
+Saint Lucia,LCA,2015,,North America
+Saint Lucia,LCA,2018,0.58858675,
+Saint Lucia,LCA,2020,0.60256475,
+Saint Martin (French part),MAF,2015,,North America
+Saint Pierre and Miquelon,SPM,2015,,North America
+Saint Vincent and the Grenadines,VCT,2015,,North America
+Saint Vincent and the Grenadines,VCT,2018,0.5358646,
+Saint Vincent and the Grenadines,VCT,2020,0.5333418,
+Samoa,WSM,2015,,Oceania
+Samoa,WSM,2018,0.52239424,
+Samoa,WSM,2020,0.5484217,
+San Marino,SMR,2015,,Europe
+Sao Tome and Principe,STP,2015,,Africa
+Saudi Arabia,SAU,2010,0.54845566,
+Saudi Arabia,SAU,2015,,Asia
+Saudi Arabia,SAU,2017,0.585,
+Saudi Arabia,SAU,2018,0.580753,
+Saudi Arabia,SAU,2020,0.5763905,
+Saxony,OWID_SAX,2015,,Europe
+Senegal,SEN,2010,0.3897669,
+Senegal,SEN,2015,,Africa
+Senegal,SEN,2017,0.418,
+Senegal,SEN,2018,0.42106333,
+Senegal,SEN,2020,0.4201108,
+Serbia,SRB,2010,0.6511238,
+Serbia,SRB,2015,,Europe
+Serbia,SRB,2017,0.755,
+Serbia,SRB,2018,0.7594855,
+Serbia,SRB,2020,0.67660636,
+Serbia and Montenegro,OWID_SRM,2015,,Europe
+Serbia excluding Kosovo,OWID_SEK,2015,,Europe
+Seychelles,SYC,2010,0.5745359,
+Seychelles,SYC,2015,,Africa
+Seychelles,SYC,2017,0.678,
+Seychelles,SYC,2018,0.6305572,
+Seychelles,SYC,2020,0.63277906,
+Sierra Leone,SLE,2015,,Africa
+Sierra Leone,SLE,2017,0.351,
+Sierra Leone,SLE,2018,0.3532862,
+Sierra Leone,SLE,2020,0.3627021,
+Singapore,SGP,2010,0.84718573,
+Singapore,SGP,2015,,Asia
+Singapore,SGP,2017,0.884,
+Singapore,SGP,2018,0.88708365,
+Singapore,SGP,2020,0.8791257,
+Sint Maarten (Dutch part),SXM,2015,,North America
+Slovakia,SVK,2010,0.6783577,
+Slovakia,SVK,2015,,Europe
+Slovakia,SVK,2017,0.694,
+Slovakia,SVK,2018,0.68005013,
+Slovakia,SVK,2020,0.6649873,
+Slovenia,SVN,2010,0.75213003,
+Slovenia,SVN,2015,,Europe
+Slovenia,SVN,2017,0.788,
+Slovenia,SVN,2018,0.7886883,
+Slovenia,SVN,2020,0.774987,
+Solomon Islands,SLB,2015,,Oceania
+Solomon Islands,SLB,2017,0.443,
+Solomon Islands,SLB,2018,0.4308597,
+Solomon Islands,SLB,2020,0.4198726,
+Somalia,SOM,2015,,Africa
+Somaliland,OWID_SML,2015,,Africa
+South Africa,ZAF,2010,0.42533833,
+South Africa,ZAF,2015,,Africa
+South Africa,ZAF,2017,0.406,
+South Africa,ZAF,2018,0.42254934,
+South Africa,ZAF,2020,0.4254534,
+South Georgia and the South Sandwich Islands,SGS,2015,,South America
+South Korea,KOR,2010,0.8246274,
+South Korea,KOR,2015,,Asia
+South Korea,KOR,2017,0.845,
+South Korea,KOR,2018,0.8345451,
+South Korea,KOR,2020,0.79877627,
+South Ossetia,OWID_SOS,2015,,Asia
+South Sudan,SSD,2015,,Africa
+South Sudan,SSD,2017,0.302,
+South Sudan,SSD,2018,0.30591297,
+South Sudan,SSD,2020,0.30652085,
+Spain,ESP,2010,0.70828557,
+Spain,ESP,2015,,Europe
+Spain,ESP,2017,0.743,
+Spain,ESP,2018,0.7361564,
+Spain,ESP,2020,0.72825503,
+Sri Lanka,LKA,2015,,Asia
+Sri Lanka,LKA,2017,0.584,
+Sri Lanka,LKA,2018,0.59337056,
+Sri Lanka,LKA,2020,0.5983243,
+Sudan,SDN,2015,,Africa
+Sudan,SDN,2017,0.379,
+Sudan,SDN,2018,0.37604046,
+Sudan,SDN,2020,0.3774452,
+Suriname,SUR,2015,,South America
+Svalbard and Jan Mayen,SJM,2015,,Europe
+Sweden,SWE,2010,0.76211333,
+Sweden,SWE,2015,,Europe
+Sweden,SWE,2017,0.8,
+Sweden,SWE,2018,0.80250996,
+Sweden,SWE,2020,0.7953571,
+Switzerland,CHE,2010,0.7681437,
+Switzerland,CHE,2015,,Europe
+Switzerland,CHE,2017,0.767,
+Switzerland,CHE,2018,0.7661076,
+Switzerland,CHE,2020,0.75611514,
+Syria,SYR,2015,,Asia
+Taiwan,TWN,2015,,Asia
+Tajikistan,TJK,2015,,Asia
+Tajikistan,TJK,2017,0.533,
+Tajikistan,TJK,2018,0.5421263,
+Tajikistan,TJK,2020,0.50411636,
+Tanzania,TZA,2015,,Africa
+Tanzania,TZA,2017,0.4,
+Tanzania,TZA,2018,0.38626108,
+Tanzania,TZA,2020,0.3898347,
+Thailand,THA,2010,0.5849853,
+Thailand,THA,2015,,Asia
+Thailand,THA,2017,0.604,
+Thailand,THA,2018,0.6168614,
+Thailand,THA,2020,0.609311,
+Togo,TGO,2010,0.3679496,
+Togo,TGO,2015,,Africa
+Togo,TGO,2017,0.413,
+Togo,TGO,2018,0.42079276,
+Togo,TGO,2020,0.43186805,
+Tokelau,TKL,2015,,Oceania
+Tonga,TON,2015,,Oceania
+Tonga,TON,2017,0.512,
+Tonga,TON,2018,0.51803416,
+Tonga,TON,2020,0.53112066,
+Transnistria,OWID_TRS,2015,,Europe
+Trinidad and Tobago,TTO,2010,0.5505203,
+Trinidad and Tobago,TTO,2015,,North America
+Trinidad and Tobago,TTO,2017,0.613,
+Trinidad and Tobago,TTO,2018,0.6023268,
+Trinidad and Tobago,TTO,2020,0.60348773,
+Tunisia,TUN,2010,0.5252143,
+Tunisia,TUN,2015,,Africa
+Tunisia,TUN,2017,0.508,
+Tunisia,TUN,2018,0.5096095,
+Tunisia,TUN,2020,0.51680994,
+Turkey,TUR,2010,0.6274764,
+Turkey,TUR,2015,,Asia
+Turkey,TUR,2017,0.626,
+Turkey,TUR,2018,0.6253099,
+Turkey,TUR,2020,0.64926183,
+Turkmenistan,TKM,2015,,Asia
+Turks and Caicos Islands,TCA,2015,,North America
+Tuscany,OWID_TUS,2015,,Europe
+Tuvalu,TUV,2015,,Oceania
+Tuvalu,TUV,2017,0.554,
+Tuvalu,TUV,2018,0.44052565,
+Tuvalu,TUV,2020,0.44757712,
+Two Sicilies,OWID_SIC,2015,,Europe
+USSR,OWID_USS,2015,,Europe
+Uganda,UGA,2010,0.34381104,
+Uganda,UGA,2015,,Africa
+Uganda,UGA,2017,0.382,
+Uganda,UGA,2018,0.3821258,
+Uganda,UGA,2020,0.38417658,
+Ukraine,UKR,2010,0.63258857,
+Ukraine,UKR,2015,,Europe
+Ukraine,UKR,2017,0.647,
+Ukraine,UKR,2018,0.6423785,
+Ukraine,UKR,2020,0.6313871,
+United Arab Emirates,ARE,2010,0.62127405,
+United Arab Emirates,ARE,2015,,Asia
+United Arab Emirates,ARE,2017,0.659,
+United Arab Emirates,ARE,2018,0.67600125,
+United Arab Emirates,ARE,2020,0.6730119,
+United Kingdom,GBR,2010,0.7654537,
+United Kingdom,GBR,2015,,Europe
+United Kingdom,GBR,2017,0.781,
+United Kingdom,GBR,2018,0.77698225,
+United Kingdom,GBR,2020,0.78294295,
+United States,USA,2010,0.6915082,
+United States,USA,2015,,North America
+United States,USA,2017,0.762,
+United States,USA,2018,0.71368325,
+United States,USA,2020,0.70176435,
+United States Minor Outlying Islands,UMI,2015,,Oceania
+United States Virgin Islands,VIR,2015,,North America
+Uruguay,URY,2010,0.59090525,
+Uruguay,URY,2015,,South America
+Uruguay,URY,2017,0.6,
+Uruguay,URY,2018,0.60236776,
+Uruguay,URY,2020,0.59876025,
+Uzbekistan,UZB,2015,,Asia
+Uzbekistan,UZB,2020,0.6228057,
+Vanuatu,VUT,2015,,Oceania
+Vanuatu,VUT,2017,0.471,
+Vanuatu,VUT,2018,0.4447504,
+Vanuatu,VUT,2020,0.45465854,
+Vatican,VAT,2015,,Europe
+Venezuela,VEN,2015,,South America
+Vietnam,VNM,2010,0.65664244,
+Vietnam,VNM,2015,,Asia
+Vietnam,VNM,2017,0.666,
+Vietnam,VNM,2018,0.68723935,
+Vietnam,VNM,2020,0.68996453,
+Wallis and Futuna,WLF,2015,,Oceania
+West Germany,OWID_GFR,2015,,Europe
+Western Sahara,ESH,2015,,Africa
+Wuerttemburg,OWID_WRT,2015,,Europe
+Yemen,YEM,2015,,Asia
+Yemen,YEM,2017,0.369,
+Yemen,YEM,2018,0.37263626,
+Yemen,YEM,2020,0.3727844,
+Yemen Arab Republic,OWID_YAR,2015,,Asia
+Yemen People's Republic,OWID_YPR,2015,,Asia
+Yugoslavia,OWID_YGS,2015,,Europe
+Zambia,ZMB,2015,,Africa
+Zambia,ZMB,2017,0.396,
+Zambia,ZMB,2018,0.39117557,
+Zambia,ZMB,2020,0.39692754,
+Zanzibar,OWID_ZAN,2015,,Africa
+Zimbabwe,ZWE,2010,0.41036552,
+Zimbabwe,ZWE,2015,,Africa
+Zimbabwe,ZWE,2017,0.441,
+Zimbabwe,ZWE,2018,0.46124157,
+Zimbabwe,ZWE,2020,0.4668931,
