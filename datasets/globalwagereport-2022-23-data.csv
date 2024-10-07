@@ -1,139 +1,139 @@
-Country name,Region,Currency,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,Source
-Algeria,Africa,DZD,,,,,26893,29352,31755,36104,37826,39242,39901,40325,40955,41800,,,Algeria National Statistical Office
-Benin,Africa,XOF,,,,,36691,40120,,,,46596,,,73321,,,,Institut National de la Statistique et de l’Analyse Economique
-Botswana,Africa,BWP,,,,4443,4641,4731,,,,,,,,5122,5218,,ILOSTAT
-Burkina Faso,Africa,XOF,,,,,,,,,,,,,107025,,,,National Institute of Statistics and Demography for Burkina Faso 
-Central African Republic,Africa,XAF,138214,135071,141600,139625,137955,142996,147839,149280,152867,161839,161060,176810,,,,,Institut Centrafricain des Statistiques et des Etudes Economiques et Sociales (CAPMAS)
-Chad,Africa,XAF,,,,,,96197,,,,,,,121734,,,,"Institut national de la statitique, des etudes economieques et demographiques "
-Côte d'Ivoire,Africa,XOF,,,,,,,76937,114309,,,,,,135131,,,ILOSTAT
-Egypt,Africa,EGP,992,1092,1426,1569,1902,2314,2778,3298,3493,3809,4082,4550,4784,5560,3965,4082,Egypt Central Agency for Public Mobilization and Statistics
-Ethiopia,Africa,ETB,,,,,861,1063,1256,1349,,,,,,,,,ILOSTAT
-"Gambia, the",Africa,GMD,,,,,,,3478,,,,,,3977,,,,ILOSTAT
-Ghana,Africa,GHS,,,,,,,,627,,,,689,,,,,ILOSTAT
-Guinea,Africa,GNF,,,637469,619343,883618,925377,971962,1158310,,,,,,143981,,,Guinea Ministère de l'Economie et des finances Ministère de la fonction publique et Reforme de l'administration
-Guinea-Bissau,Africa,XOF,,,,,,,,,,,,,90389,,,,ILOSTAT
-Kenya,Africa,KES,26374,28661,30551,31932,32963,34596,36944,42886,47044,49524,52389,56741,60762,65390,67410,68953,Kenya National Bureau of Statistics
-Lesotho,Africa,LSL,1003,875,940,961,988,1203,1466,1590,1701,2145,1899,1988,2069,2373,1572,2646,Lesotho Bureau of Statistics
-Liberia,Africa,LRD,,,,,276,,,,,,,1116,,,,,ILOSTAT
-Malawi,Africa,MWK,20850,22883,24967,27542,26321,38766,52250,61417,80667,103083,108333,125000,,,,,National Statistical Office of Malawi
-Mali,Africa,XOF,,,,,,,,77468,72802,64631,70076,69596,73226,,81011,,ILOSTAT
-Mauritius,Africa,MUR,12632,13397,14440,16899,18268,19700,21103,23785,24607,25368,27626,29462,30809,31866,,,Central Statistics Office of Mauritius
-Morocco,Africa,MAD,3704,3817,4010,4206,4322,4460,4605,4682,4774,4910,5032,5104,5183,5255,5152,,Caisse Nationale de Sécurité Sociale de Maroc
-Namibia,Africa,NAD,,,,,,,5624,6843,6638,,6927,,7233,,,,ILOSTAT
-Nigeria,Africa,NGN,,,,,,33507,,39775,48413,45698,52215,50466,,45513,,,Nigeria National Bureau of Statistics
-Rwanda,Africa,RWF,,,,,,,,,,,50923,57306,56983,57878,,54073,National Institute of Statistics of Rwanda
-Senegal,Africa,XOF,,,,,,,,,,,116476,156074,,85966,,,Ministère de L’Economie des Finances et du Plan
-Seychelles,Africa,SCR,3938,4015,4645,5958,6987,7928,8722,,,,,,13378,14733,,,ILOSTAT
-Sierra Leone,Africa,SLL,,,,,,,,,,,,,2218299,,,,ILOSTAT
-South Africa,Africa,ZAR,7939,8589,9578,10618,12150,13100,14259,15070,15959,16957,18035,19650,20884,21958,22361,23654,Statistics South Africa
-"Tanzania, United Republic of",Africa,TZS,98454,,,,,,,,304324,,,,,,425957,,Tanzania National Bureau of Statistics
-Togo,Africa,XOF,,,,,,113913,,,,152478,,89279,,,,,ILOSTAT
-Uganda,Africa,UGX,166618,,,,252035,,262146,244506,,,,387469,,,,,Uganda Bureau of Statistics
-Zambia,Africa,ZMD,,,824,,,,1724,,2344,,,3330,3215,4010,4393,,Central Statistical Office of Zambia
-Zimbabwe,Africa,USD,,,,,,231,,,317,,,,,308,,,ILOSTAT
-Afghanistan,Asia and the Pacific,AFN,,,,4250,,,,,,,,,,,13202,,"Central Statistics Organization, Afghanistan"
-Bangladesh,Asia and the Pacific,BDT,3506,3779,4227,5025,5460,5782,6469,7388,8097,8899,9746,10597,11281,12004,12732,13504,Bangladesh Bureau of Statistics
-Bhutan,Asia and the Pacific,INR,,,,,,,,,,,,,15744,19387,19895,,ILOSTAT
-Cambodia,Asia and the Pacific,KHR,,,,241000,292259,340472,402575,505186,642000,788000,887000,1039000,,1243000,,,National Institute of Statistics
-China,Asia and the Pacific,CNY,1738,2060,2408,2687,3045,3483,3897,4290,4697,5169,5631,6193,6872,7542,8115,8903,National Bureau of Statistics China
-Fiji,Asia and the Pacific,FJD,494,597,,541,576,574,,,,,752,652,797,1648,,,Fiji Islands Bureau of Statistics
-Hong Kong (China),Asia and the Pacific,HKD,10956,11369,11375,11107,11578,12690,13258,13807,14240,14848,15271,15703,16488,17108,16988,17065,Census and Statistics Department of Hong Kong
-India,Asia and the Pacific,INR,4398,4684,5187,5675,6273,7208,7972,9194,10093,10885,11674,12399,13143,15584,16152,17017,Government of India Ministry of Statistics and Programme Implementation
-Indonesia,Asia and the Pacific,IDR,985028,1077312,1158085,1322380,1410982,1529161,1635965,1917152,1952589,2069306,2552962,2742621,2829130,2913897,2756345,2736463,Statistics Indonesia of the Republic of Indonesia
-"Iran, Islamic Republic of",Asia and the Pacific,IRR,1933591,2203885,2514227,2747834,2917392,3191486,3857744,5110000,6494583,7769333,8815583,10503500,12090583,14658667,,,Statistical Centre of Iran
-"Korea, Republic of",Asia and the Pacific,KRW,2541886,2683203,2568838,2636260,2816188,2843545,2995471,3110992,3189995,3300091,3424726,3518155,3696314,3818727,3846401,4038749,Ministry of Labour of Korea
-Lao People's Democratic Republic,Asia and the Pacific,LAK,,,,,1111898,,,,,,,1977053,,,,,ILOSTAT
-Macau (China),Asia and the Pacific,MOP,6313,8098,9821,9900,10095,10725,11335,12145,13145,13805,14150,14580,15330,15880,14740,15580,Statistics and Census Service Macao SAR Government
-Malaysia,Asia and the Pacific,MYR,1925,2026,2066,2079,2199,2358,2486,2659,2775,2947,3112,3300,3596,3699,3305,3313,Department of Statistics of Malaysia
-Mongolia,Asia and the Pacific,MNT,127725,172975,274150,300450,341450,424150,557550,,796600,808000,861900,944500,1002900,1124300,1220600,1279400,Mongolia National Statistical Office
-Myanmar,Asia and the Pacific,MMK,,,,,,,,,,117327,,173500,192258,208855,216279,,"Ministry of Labour, Employment and Social Security"
-Pakistan,Asia and the Pacific,PKR,4994,5768,6612,7922,8940,10093,,12569,13636,15495,,18827,19193,21545,,24068,ILOSTAT
-Philippines,Asia and the Pacific,PHP,6831,6955,7275,7583,7995,8280,8707,9107,9582,9752,10325,10691,11407,,,,National Statistical Office of the Phillippines
-Singapore,Asia and the Pacific,SGD,3554,3773,3977,3872,4089,4334,4433,4622,4727,4892,5074,5229,5410,5549,5629,5832,Statistics Singapore
-Sri Lanka,Asia and the Pacific,LKR,10588,14124,12679,13690,15163,16205,,,23858,24674,26108,28255,29721,,,,Department of Census and Statistics
-Taiwan (China),Asia and the Pacific,TWD,43492,44411,44418,42299,44646,45961,46109,46174,47832,49024,49266,50480,52407,53457,54160,55792,National Statistics Republic of China (Taiwan)
-Thailand,Asia and the Pacific,THB,7851,8085,8913,8694,9262,9935,11101,12003,13244,13487,13729,13721,13908,14230,14500,14634,National Statistical Office of Thailand
-Viet Nam,Asia and the Pacific,VND,,,,,,3110500,3762200,4126000,4475000,4656000,4985000,5370500,5767750,6714500,6646775,6534775,General Statistics Office of Vietnam
-Australia,Asia and the Pacific,AUD,3590,3752,3888,4059,4275,4439,4625,4808,4879,4946,5036,5135,5270,5406,5601,5709,Australian Bureau of Statistics
-Austria,Europe and Central Asia,EUR,3440,3540,3650,3740,3780,3870,3990,4080,4190,4280,4390,4460,4570,4690,4770,4920,Statistics Austria
-Belgium,Europe and Central Asia,EUR,2766,2837,2936,3027,3103,3192,3258,3300,3414,3445,3489,3558,3627,3758,3832,,"Statbel, the Belgian statistical office"
-Bulgaria,Europe and Central Asia,BGN,360,431,545,609,648,686,731,775,822,878,948,1037,1146,1267,1391,1551,Bulgarian National Statistical Institute
-Canada,Americas,CAD,3272,3413,3511,3564,3693,3785,3880,3949,4053,4126,4145,4229,4338,4456,4757,4899,Statistics Canada
-Cyprus,Europe and Central Asia,EUR,1636,1699,1801,1870,1915,1968,1991,1948,1893,1883,1878,1891,1938,1979,1998,2044,Statistical Service of Cyprus
-Czech Republic,Europe and Central Asia,CZK,22908,24604,26349,26677,26881,25625,26033,26211,26802,27811,29061,31109,33684,36380,38628,40777,Czech Statistical Office 
-Denmark,Europe and Central Asia,DKK,,,,35382,36522,37349,38106,38525,38958,39575,40102,40954,41736,42592,43577,,Statistics Denmark 
-Estonia,Europe and Central Asia,EUR,601,725,825,784,792,839,887,949,1005,1065,1146,1221,1310,1407,1448,1548,Statistics Estonia
-Finland,Europe and Central Asia,EUR,2634,2734,2876,2971,3040,3109,3206,3284,3308,3333,3368,3395,3465,3527,3599,3734,Statistics Finland
-France,Europe and Central Asia,EUR,2355,2416,2479,2511,2586,2630,2682,2713,2742,2533,2572,2628,2677,2723,,,Eurostat 
-Germany,Europe and Central Asia,EUR,2243,2277,2334,2335,2396,2479,2550,2606,2683,2761,2829,2902,2994,3083,3079,3177,Federal Statistical Office of Germany
-Greece,Europe and Central Asia,EUR,1569,1622,1665,1751,1689,1613,1536,1406,1389,1357,1344,1346,,,,,Eurostat 
-Hungary,Europe and Central Asia,HUF,171351,185018,198741,199837,202525,213094,223060,230714,237695,247924,263171,297017,329939,367833,403708,438661,Hungarian Central Statistic Office
-Iceland,Europe and Central Asia,ISK,272000,303000,324000,334000,348000,365000,390000,428000,564000,612000,663000,707000,726000,754000,793000,823000,Statistics Iceland
-Ireland,Europe and Central Asia,EUR,,,3066,3074,3030,2994,3012,2998,3008,3043,3077,3137,3239,3357,3532,3698,Central Statistics Office of Ireland
-Israel,Europe and Central Asia,ILS,7180,7662,7922,7947,8100,8325,8775,9030,9317,9503,9724,10095,10584,10291,10412,,Israel Central Bureau of Statistics
-Italy,Europe and Central Asia,EUR,1972,2013,2071,2075,2120,2141,2117,2136,2144,2171,2188,2196,2231,2253,2156,2292,Italy National Bureau of Statistics
-Japan,Asia and the Pacific,JPY,330900,330600,328800,318100,323000,323800,325600,324000,329600,333300,333700,333800,336700,338000,330600,334800,Japan Ministry of Health Labour and Welfare
-Latvia,Europe and Central Asia,EUR,430,566,682,655,633,660,685,716,765,818,859,926,1004,1076,1143,1277,Statistics Latvia
-Lithuania,Europe and Central Asia,EUR,558,673,803,768,742,766,788,833,873,921,998,1087,1201,1307,1440,1590,Statistics Lithuania
-Luxembourg,Europe and Central Asia,EUR,3814,3987,4084,4123,4224,4291,4353,4455,4577,4727,4772,4919,5078,5167,5196,5473,STATEC Luxembourg
-Malta,Europe and Central Asia,EUR,1057,1083,1134,1152,1206,1254,1283,1319,1340,1390,1456,1496,1564,1633,1576,1646,Malta National Statistics Office 
-Netherlands,Europe and Central Asia,EUR,2027,2068,2136,2229,2245,2266,2302,2337,2359,2405,2436,2460,2508,2575,2692,2761,Statistics Netherlands
-New Zealand,Asia and the Pacific,NZD,3198,3436,3575,3640,3796,3887,3991,4151,4286,4403,4645,4788,4931,5040,5239,5404,Statistics New Zealand
-Norway,Europe and Central Asia,NOK,30539,32263,34100,35300,36700,38100,39600,41000,42300,42600,43640,44660,46010,47720,48750,50790,Statistics Norway
-Poland,Europe and Central Asia,PLN,2476,2673,2942,3102,3224,3404,3530,3659,3777,3908,4052,4284,4590,4918,5167,5663,Central Statistical Office of Poland
-Portugal,Europe and Central Asia,EUR,934,963,1008,1034,1076,1084,1096,1094,1093,1141,1192,1211,1233,1273,1311,1357,Gabinete de Estratégia e Planeamento (GEP) do Ministério do Trabalho e da Solidariedade Social
-Romania,Europe and Central Asia,RON,1146,1396,1761,1845,1902,1980,2063,2163,2328,2555,2809,3223,4357,4853,5213,5535,Romanian National Institute of Statistic
-Slovakia,Europe and Central Asia,EUR,623,669,723,745,769,786,805,824,858,883,912,954,1013,1092,1133,1211,Statistical Office of the Slovak Republic
-Slovenia,Europe and Central Asia,EUR,1213,1285,1391,1439,1495,1525,1525,1523,1546,1556,1585,1627,1682,1754,1858,1970,Statistical Office of the Republic of Slovenia
-Spain,Europe and Central Asia,EUR,1647,1713,1800,1858,1875,1895,1884,1884,1882,1902,1898,1900,1919,1955,1904,2023,Spain National Statistics Institute
-Sweden,Europe and Central Asia,SEK,25000,25800,27100,27900,28400,29000,29800,30600,31400,32000,32800,33700,34600,35300,36100,37100,Statistics Sweden 
-Switzerland,Europe and Central Asia,CHF,6617,,6879,,7030,,7562,,7308,,7491,,7603,,7825,,Swiss Federal Statistical Office
-United Kingdom,Europe and Central Asia,GBP,1907,1964,2051,2084,2113,2111,2129,2172,2173,2198,2275,2331,2405,2477,2495,2582,United Kingdom National Statistics
-United States,Americas,USD,,3119,3202,3250,3335,3428,3508,3575,3661,3745,3818,3927,4058,4173,4398,4603,US Bureau of Labor Statistics
-Albania,Europe and Central Asia,ALL,,,,,34783,36451,37715,36993,37323,38148,37341,39026,39647,,,,Albania National Institute of Statistics
-Armenia,Europe and Central Asia,AMD,,,,,,,140739,146524,158580,171615,174445,177817,172727,182673,189716,204048,National Statistics Service of Armenia 
-Azerbaijan,Europe and Central Asia,AZN,149,216,274,298,332,364,398,425,445,467,500,529,545,635,708,732,State Statistical Committee of the Republic of Azerbaijan
-Belarus,Europe and Central Asia,BYR,58,69,87,98,122,190,368,506,605,671,723,823,971,1093,1255,1444,Republic of Belarus Official Statistics 
-Bosnia and Herzegovina,Europe and Central Asia,BAM,,954,1113,1204,1217,1271,1290,1291,1290,1289,1301,1321,1363,1422,1480,1542,Agency of Statistics for Bosnia & Herzegovina 
-Croatia,Europe and Central Asia,HRK,6575,6995,7507,7655,7677,7772,7863,7926,7951,7978,8037,8304,8612,8942,9187,9599,Republic of Croatia Central Bureau of Statistics
-Georgia,Europe and Central Asia,GEL,278,368,535,557,598,636,713,773,818,900,940,999,1068,1129,1191,1305,National Statistics Office of Georgia
-Kazakhstan,Europe and Central Asia,KZT,40790,53238,60734,67639,77482,89959,101079,108640,120455,125335,142351,149663,162267,185487,212634,248791,Agency of Statistics of Kazakhstan
-Kyrgyzstan Republic,Europe and Central Asia,KGS,3270,3970,5378,6161,7189,9304,10726,11341,12285,13483,14847,15670,16427,17232,18940,19330,National Statistical Committee of the Kyrgyz Republic
-"Moldova, Republic of",Europe and Central Asia,MDL,1697,2065,2530,2748,2972,3042,3386,3674,4090,4538,4998,5587,6268,7234,7943,8980,National Bureau of Statistics Moldova
-Montenegro,Europe and Central Asia,EUR,433,497,609,643,715,722,727,726,723,725,751,765,766,773,783,793,Statistical Office of Montenegro
-Russian Federation,Europe and Central Asia,RUB,10634,13593,17290,18638,20952,23369,26629,29792,32495,34030,36709,39167,43724,47867,51344,56545,Russia Federal State Statistics Service
-Serbia,Europe and Central Asia,RSD,31745,38744,45674,44147,47450,52733,57430,60708,61426,61145,63474,65976,68629,75814,82984,90784,Statistical Office of the Republic of Serbia
-Tajikistan,Europe and Central Asia,TJS,122,170,243,306,361,464,573,725,859,910,987,1171,1257,1352,1412,1569,State Committee on Statistics of Tajikstan 
-North Macedonia,Europe and Central Asia,MKD,23036,24136,26229,29922,30225,30602,30669,31025,31325,32173,32822,33688,35625,37453,40433,42873,Republic of Macedonia State Statistical Office
-Türkiye,Europe and Central Asia,TRY,1103,,,,1512,,,,2207,,,,3960,,,,Turkish Statistical Institute
-Turkmenistan,Europe and Central Asia,TMT,,507,604,678,743,848,943,1047,1153,1263,1381,1403,,,,,State Committee of Turkmenistan Statistics
-Ukraine,Europe and Central Asia,UAH,,,,,2250,2648,3041,3282,3480,4195,5183,7104,8865,10497,11591,,State Committee of Statistics of Ukraine
-Uzbekistan,Europe and Central Asia,UZS,,,81500,,504800,921300,1056800,,,,1293800,1453800,1822700,2324600,2673300,3208200,State Committee of the Republic of Uzbekistan on Statistics
-Argentina,Americas,ARS,981,1198,1537,1860,2303,3000,3724,4758,6168,7465,11243,13446,17045,23502,31365,47570,INDEC
-Belize,Americas,BZD,,,,,,,,,1506,1199,1158,1198,1218,1269,1020,,ILOSTAT
-"Bolivia, Plurinational State of",Americas,BOB,1337,1419,1615,1698,,2042,2545,2661,3134,3160,3276,3372,3526,3627,3614,3584,ILO SIALC
-Brazil,Americas,BRL,824,894,971,1051,,1270,1458,1595,1730,1862,1985,2088,2196,2287,2466,2481,Brazilian Institute of Geography and Statistics (IBGE)
-Chile,Americas,CLP,299504,321341,351549,373221,,,478282,506227,526819,559700,571547,600070,632162,653892,702733,742744,National Statistics Institute of Chile
-Colombia,Americas,COP,672658,860382,940951,921476,1023646,1064974,1072370,1152113,1145431,1212616,1290862,1268917,1355017,1440625,1441367,1513647,ILO SIALC
-Costa Rica,Americas,CRC,263975,292599,325392,386395,420667,468832,497597,531926,568158,579249,613977,632926,645022,669281,670444,704008,Central Bank of Costa Rica
-Cuba,Americas,CUP,387,408,415,429,448,455,466,471,584,687,740,767,,,,,Cuba National Office of Statistics
-Dominican Republic,Americas,DOP,8491,9113,10183,11800,11327,12129,13259,13372,13896,13063,13570,14540,15971,16881,16879,20692,ILOSTAT
-Ecuador,Americas,USD,322,363,382,401,441,478,449,501,540,561,570,567,574,612,517,534,ILO SIALC
-El Salvador,Americas,USD,247,261,266,278,272,271,279,302,298,300,302,307,327,344,358,356,Ministry of the Economy and General Direction for Statistics and Census
-Guatemala,Americas,GTQ,,,,,,1967,1879,2026,2184,2186,2227,2182,2349,2377,,,Guatemala National Institute of Statistics
-Honduras,Americas,HNL,,,,,,,5620,6577,6577,6403,6918,6799,6790,7490,8914,7127,Honduras National Statistical Institute
-Mexico,Americas,MXN,5346,5651,5790,5882,5967,5989,6205,6406,6376,6580,6852,7120,7449,7828,8761,9210,Mexico National Employment Service Job Portal
-Nicaragua,Americas,NIO,4824,4957,5342,6010,6320,6615,6989,7463,8147,8714,9292,10239,10757,10942,10979,11017,Ministry of Labour of Nicaragua (MITRAB)
-Panama,Americas,PAB,547,577,608,635,706,744,817,987,1042,1115,1238,1359,1422,1185,1249,,Panama National Institute of Statistics and Census
-Paraguay,Americas,PYG,1197727,1245448,1402030,1471791,1672724,1897702,1870844,2078105,2227875,2280272,2297543,2420838,2594088,2618616,2515179,2616388,ILO SIALC
-Peru,Americas,PEN,866,937,995,1082,1100,1154,1178,1242,1310,1358,1452,1467,1510,1570,1479,1498,ILO SIALC
-Puerto Rico,Americas,USD,1976,2063,2128,2197,2219,2223,2245,2240,2258,2288,2284,2298,2401,2370,2466,,US Bureau of Labor Statistics
-Uruguay,Americas,UYU,9377,10537,11826,13703,14583,16683,17986,20217,22955,22755,27383,30293,32125,34746,36777,39983,ILO SIALC
-Bahrain,Arab States,BHD,,661,703,744,811,899,910,734,746,757,774,768,801,793,803,816,Kingdom of Bahrain Labour Market Regulatory Authority
-Jordan,Arab States,JOD,280,305,350,365,392,416,437,463,,484,493,500,524,543,546,,Jordan Department of Statistics
-Kuwait,Arab States,KWD,394,438,485,520,545,622,678,647,736,795,764,747,789,,,,Kuwait Central Statistical Office
-Lebanon,Arab States,LBP,,,,690000,,,,,,,,,,1175862,,,Lebanon Central Administration of Statistics
-Oman,Arab States,OMR,177,197,217,228,228,313,350,378,599,643,696,703,673,705,,,Oman Ministry of the National Economy
-Qatar,Arab States,QAR,5206,6318,7400,7792,,7401,8654,9667,10483,10568,10793,11099,11121,11308,11554,11703,Qatar Statistics Authority
-Saudi Arabia,Arab States,SAR,,,,4470,,5031,5285,5580,6099,6413,6225,6093,6272,6313,6564,,ILOSTAT
-Occupied Palestinian Territory,Arab States,JOD,,,,,,,,,,,,2436,2622,2776,2894,2928,ILOSTAT
+"Country name","Region","Currency","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","Source"
+"Algeria","Africa","DZD","","","","","26893","29352","31755","36104","37826","39242","39901","40325","40955","41800","","","Algeria National Statistical Office"
+"Benin","Africa","XOF","","","","","36691","40120","","","","46596","","","73321","","","","Institut National de la Statistique et de l’Analyse Economique"
+"Botswana","Africa","BWP","","","","4443","4641","4731","","","","","","","","5122","5218","","ILOSTAT"
+"Burkina Faso","Africa","XOF","","","","","","","","","","","","","107025","","","","National Institute of Statistics and Demography for Burkina Faso "
+"Central African Republic","Africa","XAF","138214","135071","141600","139625","137955","142996","147839","149280","152867","161839","161060","176810","","","","","Institut Centrafricain des Statistiques et des Etudes Economiques et Sociales (CAPMAS)"
+"Chad","Africa","XAF","","","","","","96197","","","","","","","121734","","","","Institut national de la statitique, des etudes economieques et demographiques "
+"Côte d'Ivoire","Africa","XOF","","","","","","","76937","114309","","","","","","135130","","","ILOSTAT"
+"Egypt","Africa","EGP","992","1092","1426","1569","1902","2314","2778","3298","3493","3809","4082","4550","4784","5560","3965","4082","Egypt Central Agency for Public Mobilization and Statistics"
+"Ethiopia","Africa","ETB","","","","","861","1063","1256","1349","","","","","","","","","ILOSTAT"
+"Gambia, the","Africa","GMD","","","","","","","3478","","","","","","3977","","","","ILOSTAT"
+"Ghana","Africa","GHS","","","","","","","","627","","","","689","","","","","ILOSTAT"
+"Guinea","Africa","GNF","","","637469","619343","883618","925377","971962","1158310","","","","","","143981","","","Guinea Ministère de l'Economie et des finances Ministère de la fonction publique et Reforme de l'administration"
+"Guinea-Bissau","Africa","XOF","","","","","","","","","","","","","90389","","","","ILOSTAT"
+"Kenya","Africa","KES","26374","28661","30551","31932","32963","34596","36944","42886","47044","49524","52389","56741","60762","65390","67410","68953","Kenya National Bureau of Statistics"
+"Lesotho","Africa","LSL","1003","875","940","960","988","1203","1466","1590","1701","2144","1899","1988","2068","2373","1572","2646","Lesotho Bureau of Statistics"
+"Liberia","Africa","LRD","","","","","276","","","","","","","1116","","","","","ILOSTAT"
+"Malawi","Africa","MWK","20850","22883","24967","27542","26321","38766","52250","61417","80667","103083","108333","125000","","","","","National Statistical Office of Malawi"
+"Mali","Africa","XOF","","","","","","","","77468","72802","64631","70076","69596","73226","","81011","","ILOSTAT"
+"Mauritius","Africa","MUR","12632","13397","14440","16899","18268","19700","21103","23785","24607","25368","27626","29462","30809","31866","","","Central Statistics Office of Mauritius"
+"Morocco","Africa","MAD","3704","3817","4010","4206","4322","4460","4605","4682","4774","4910","5032","5104","5183","5255","5152","","Caisse Nationale de Sécurité Sociale de Maroc"
+"Namibia","Africa","NAD","","","","","","","5624","6843","6638","","6927","","7233","","","","ILOSTAT"
+"Nigeria","Africa","NGN","","","","","","33507","","39775","48413","45698","52215","50466","","45513","","","Nigeria National Bureau of Statistics"
+"Rwanda","Africa","RWF","","","","","","","","","","","50922","57306","56983","57878","","54073","National Institute of Statistics of Rwanda"
+"Senegal","Africa","XOF","","","","","","","","","","","116476","156074","","85966","","","Ministère de L’Economie des Finances et du Plan"
+"Seychelles","Africa","SCR","3938","4015","4645","5958","6987","7928","8722","","","","","","13378","14733","","","ILOSTAT"
+"Sierra Leone","Africa","SLL","","","","","","","","","","","","","2218299","","","","ILOSTAT"
+"South Africa","Africa","ZAR","7939","8589","9578","10618","12150","13100","14259","15070","15958","16957","18035","19650","20884","21958","22361","23654","Statistics South Africa"
+"Tanzania, United Republic of","Africa","TZS","98454","","","","","","","","304324","","","","","","425957","","Tanzania National Bureau of Statistics"
+"Togo","Africa","XOF","","","","","","113912","","","","152478","","89279","","","","","ILOSTAT"
+"Uganda","Africa","UGX","166618","","","","252035","","262146","244506","","","","387469","","","","","Uganda Bureau of Statistics"
+"Zambia","Africa","ZMD","","","824","","","","1724","","2344","","","3330","3215","4010","4393","","Central Statistical Office of Zambia"
+"Zimbabwe","Africa","USD","","","","","","231","","","317","","","","","308","","","ILOSTAT"
+"Afghanistan","Asia and the Pacific","AFN","","","","4250","","","","","","","","","","","13202","","Central Statistics Organization, Afghanistan"
+"Bangladesh","Asia and the Pacific","BDT","3506","3779","4227","5025","5460","5782","6469","7388","8097","8899","9746","10597","11281","12004","12732","13504","Bangladesh Bureau of Statistics"
+"Bhutan","Asia and the Pacific","INR","","","","","","","","","","","","","15744","19387","19895","","ILOSTAT"
+"Cambodia","Asia and the Pacific","KHR","","","","241000","292259","340472","402575","505186","642000","788000","887000","1039000","","1243000","","","National Institute of Statistics"
+"China","Asia and the Pacific","CNY","1738","2060","2408","2687","3045","3483","3897","4290","4697","5169","5631","6193","6872","7542","8115","8903","National Bureau of Statistics China"
+"Fiji","Asia and the Pacific","FJD","494","597","","541","576","574","","","","","752","652","797","1648","","","Fiji Islands Bureau of Statistics"
+"Hong Kong (China)","Asia and the Pacific","HKD","10956","11369","11375","11106","11578","12690","13258","13807","14240","14848","15270","15703","16488","17108","16988","17064","Census and Statistics Department of Hong Kong"
+"India","Asia and the Pacific","INR","4398","4684","5187","5675","6273","7208","7972","9194","10093","10885","11674","12399","13143","15584","16152","17016","Government of India Ministry of Statistics and Programme Implementation"
+"Indonesia","Asia and the Pacific","IDR","985028","1077312","1158085","1322380","1410982","1529161","1635965","1917152","1952589","2069306","2552962","2742621","2829130","2913897","2756345","2736463","Statistics Indonesia of the Republic of Indonesia"
+"Iran, Islamic Republic of","Asia and the Pacific","IRR","1933591","2203885","2514227","2747834","2917392","3191486","3857744","5110000","6494583","7769333","8815583","10503500","12090583","14658667","","","Statistical Centre of Iran"
+"Korea, Republic of","Asia and the Pacific","KRW","2541886","2683203","2568838","2636260","2816188","2843545","2995471","3110992","3189995","3300091","3424726","3518155","3696314","3818727","3846401","4038749","Ministry of Labour of Korea"
+"Lao People's Democratic Republic","Asia and the Pacific","LAK","","","","","1111898","","","","","","","1977052","","","","","ILOSTAT"
+"Macau (China)","Asia and the Pacific","MOP","6312","8098","9821","9900","10095","10725","11335","12145","13145","13805","14150","14580","15330","15880","14740","15580","Statistics and Census Service Macao SAR Government"
+"Malaysia","Asia and the Pacific","MYR","1925","2026","2066","2079","2199","2358","2486","2659","2775","2947","3112","3300","3596","3699","3305","3313","Department of Statistics of Malaysia"
+"Mongolia","Asia and the Pacific","MNT","127725","172975","274150","300450","341450","424150","557550","","796600","808000","861900","944500","1002900","1124300","1220600","1279400","Mongolia National Statistical Office"
+"Myanmar","Asia and the Pacific","MMK","","","","","","","","","","117327","","173500","192258","208855","216279","","Ministry of Labour, Employment and Social Security"
+"Pakistan","Asia and the Pacific","PKR","4994","5768","6612","7922","8940","10093","","12569","13636","15495","","18827","19193","21545","","24068","ILOSTAT"
+"Philippines","Asia and the Pacific","PHP","6831","6955","7275","7583","7995","8280","8707","9107","9582","9752","10325","10691","11407","","","","National Statistical Office of the Phillippines"
+"Singapore","Asia and the Pacific","SGD","3554","3773","3977","3872","4089","4334","4433","4622","4727","4892","5074","5229","5410","5549","5629","5832","Statistics Singapore"
+"Sri Lanka","Asia and the Pacific","LKR","10588","14124","12679","13690","15163","16205","","","23858","24674","26108","28255","29721","","","","Department of Census and Statistics"
+"Taiwan (China)","Asia and the Pacific","TWD","43492","44411","44418","42299","44646","45961","46109","46174","47832","49024","49266","50480","52407","53457","54160","55792","National Statistics Republic of China (Taiwan)"
+"Thailand","Asia and the Pacific","THB","7851","8085","8913","8694","9262","9935","11101","12003","13244","13487","13729","13721","13908","14230","14500","14634","National Statistical Office of Thailand"
+"Viet Nam","Asia and the Pacific","VND","","","","","","3110500","3762200","4126000","4475000","4656000","4985000","5370500","5767750","6714500","6646775","6534775","General Statistics Office of Vietnam"
+"Australia","Asia and the Pacific","AUD","3590","3752","3888","4059","4275","4439","4625","4808","4879","4946","5036","5135","5270","5406","5601","5709","Australian Bureau of Statistics"
+"Austria","Europe and Central Asia","EUR","3440","3540","3650","3740","3780","3870","3990","4080","4190","4280","4390","4460","4570","4690","4770","4920","Statistics Austria"
+"Belgium","Europe and Central Asia","EUR","2766","2837","2936","3027","3103","3192","3258","3300","3414","3445","3489","3558","3627","3758","3832","","Statbel, the Belgian statistical office"
+"Bulgaria","Europe and Central Asia","BGN","360","431","545","609","648","686","731","775","822","878","948","1037","1146","1267","1391","1551","Bulgarian National Statistical Institute"
+"Canada","Americas","CAD","3272","3413","3511","3564","3693","3785","3880","3949","4053","4126","4145","4229","4338","4456","4757","4899","Statistics Canada"
+"Cyprus","Europe and Central Asia","EUR","1636","1699","1800","1870","1914","1968","1991","1948","1893","1883","1878","1891","1938","1979","1998","2044","Statistical Service of Cyprus"
+"Czech Republic","Europe and Central Asia","CZK","22908","24604","26349","26677","26881","25625","26033","26211","26802","27811","29061","31109","33684","36380","38628","40777","Czech Statistical Office "
+"Denmark","Europe and Central Asia","DKK","","","","35382","36522","37349","38106","38525","38958","39575","40102","40954","41736","42592","43577","","Statistics Denmark "
+"Estonia","Europe and Central Asia","EUR","601","725","825","784","792","839","887","949","1005","1065","1146","1221","1310","1407","1448","1548","Statistics Estonia"
+"Finland","Europe and Central Asia","EUR","2634","2734","2876","2971","3040","3109","3206","3284","3308","3333","3368","3395","3465","3527","3599","3734","Statistics Finland"
+"France","Europe and Central Asia","EUR","2355","2416","2479","2511","2586","2630","2682","2713","2742","2533","2572","2628","2677","2723","","","Eurostat "
+"Germany","Europe and Central Asia","EUR","2243","2277","2334","2335","2396","2479","2550","2606","2683","2761","2829","2902","2994","3083","3079","3177","Federal Statistical Office of Germany"
+"Greece","Europe and Central Asia","EUR","1569","1622","1665","1751","1689","1613","1536","1406","1389","1357","1344","1346","","","","","Eurostat "
+"Hungary","Europe and Central Asia","HUF","171351","185018","198741","199837","202525","213094","223060","230714","237695","247924","263171","297017","329939","367833","403708","438661","Hungarian Central Statistic Office"
+"Iceland","Europe and Central Asia","ISK","272000","303000","324000","334000","348000","365000","390000","428000","564000","612000","663000","707000","726000","754000","793000","823000","Statistics Iceland"
+"Ireland","Europe and Central Asia","EUR","","","3066","3074","3030","2994","3012","2998","3008","3043","3077","3137","3239","3357","3532","3698","Central Statistics Office of Ireland"
+"Israel","Europe and Central Asia","ILS","7180","7662","7922","7947","8100","8325","8775","9030","9317","9503","9724","10095","10584","10291","10412","","Israel Central Bureau of Statistics"
+"Italy","Europe and Central Asia","EUR","1972","2013","2071","2075","2120","2141","2117","2136","2144","2171","2188","2196","2231","2253","2156","2292","Italy National Bureau of Statistics"
+"Japan","Asia and the Pacific","JPY","330900","330600","328800","318100","323000","323800","325600","324000","329600","333300","333700","333800","336700","338000","330600","334800","Japan Ministry of Health Labour and Welfare"
+"Latvia","Europe and Central Asia","EUR","430","566","682","655","633","660","685","716","765","818","859","926","1004","1076","1143","1277","Statistics Latvia"
+"Lithuania","Europe and Central Asia","EUR","558","673","803","768","742","766","788","833","873","921","998","1087","1201","1307","1440","1590","Statistics Lithuania"
+"Luxembourg","Europe and Central Asia","EUR","3814","3987","4084","4123","4224","4291","4353","4455","4577","4727","4772","4919","5078","5167","5196","5473","STATEC Luxembourg"
+"Malta","Europe and Central Asia","EUR","1057","1083","1134","1152","1206","1254","1283","1319","1340","1390","1456","1496","1564","1633","1576","1646","Malta National Statistics Office "
+"Netherlands","Europe and Central Asia","EUR","2027","2068","2136","2229","2245","2266","2302","2337","2359","2405","2436","2460","2508","2575","2692","2761","Statistics Netherlands"
+"New Zealand","Asia and the Pacific","NZD","3198","3436","3575","3640","3796","3887","3991","4151","4286","4403","4645","4788","4931","5040","5239","5404","Statistics New Zealand"
+"Norway","Europe and Central Asia","NOK","30539","32263","34100","35300","36700","38100","39600","41000","42300","42600","43640","44660","46010","47720","48750","50790","Statistics Norway"
+"Poland","Europe and Central Asia","PLN","2476","2673","2942","3102","3224","3404","3530","3659","3777","3908","4052","4284","4590","4918","5167","5663","Central Statistical Office of Poland"
+"Portugal","Europe and Central Asia","EUR","934","963","1008","1034","1076","1084","1096","1094","1093","1141","1192","1211","1233","1273","1311","1357","Gabinete de Estratégia e Planeamento (GEP) do Ministério do Trabalho e da Solidariedade Social"
+"Romania","Europe and Central Asia","RON","1146","1396","1761","1845","1902","1980","2063","2163","2328","2555","2809","3223","4357","4853","5213","5535","Romanian National Institute of Statistic"
+"Slovakia","Europe and Central Asia","EUR","623","669","723","744","769","786","805","824","858","883","912","954","1013","1092","1133","1211","Statistical Office of the Slovak Republic"
+"Slovenia","Europe and Central Asia","EUR","1213","1285","1391","1439","1495","1525","1525","1523","1546","1556","1585","1627","1682","1754","1858","1970","Statistical Office of the Republic of Slovenia"
+"Spain","Europe and Central Asia","EUR","1647","1713","1800","1858","1875","1895","1884","1884","1882","1902","1898","1900","1919","1955","1904","2023","Spain National Statistics Institute"
+"Sweden","Europe and Central Asia","SEK","25000","25800","27100","27900","28400","29000","29800","30600","31400","32000","32800","33700","34600","35300","36100","37100","Statistics Sweden "
+"Switzerland","Europe and Central Asia","CHF","6617","","6879","","7030","","7562","","7308","","7491","","7603","","7825","","Swiss Federal Statistical Office"
+"United Kingdom","Europe and Central Asia","GBP","1907","1964","2051","2084","2113","2111","2129","2172","2173","2198","2275","2331","2405","2477","2495","2582","United Kingdom National Statistics"
+"United States","Americas","USD","","3119","3202","3250","3335","3428","3508","3575","3661","3745","3818","3927","4058","4173","4398","4603","US Bureau of Labor Statistics"
+"Albania","Europe and Central Asia","ALL","","","","","34783","36451","37715","36993","37323","38148","37341","39026","39647","","","","Albania National Institute of Statistics"
+"Armenia","Europe and Central Asia","AMD","","","","","","","140739","146524","158580","171615","174445","177817","172727","182673","189716","204048","National Statistics Service of Armenia "
+"Azerbaijan","Europe and Central Asia","AZN","149","216","274","298","332","364","398","425","444","467","500","528","545","635","708","732","State Statistical Committee of the Republic of Azerbaijan"
+"Belarus","Europe and Central Asia","BYR","58","69","87","98","122","190","368","506","605","671","723","823","971","1093","1255","1444","Republic of Belarus Official Statistics "
+"Bosnia and Herzegovina","Europe and Central Asia","BAM","","954","1113","1204","1217","1270","1290","1291","1290","1288","1301","1321","1362","1422","1480","1542","Agency of Statistics for Bosnia & Herzegovina "
+"Croatia","Europe and Central Asia","HRK","6575","6995","7507","7655","7677","7772","7863","7926","7951","7978","8037","8304","8612","8942","9187","9599","Republic of Croatia Central Bureau of Statistics"
+"Georgia","Europe and Central Asia","GEL","278","368","535","557","598","636","712","773","818","900","940","999","1068","1129","1191","1305","National Statistics Office of Georgia"
+"Kazakhstan","Europe and Central Asia","KZT","40790","53238","60734","67639","77482","89959","101079","108640","120455","125335","142351","149663","162267","185487","212634","248791","Agency of Statistics of Kazakhstan"
+"Kyrgyzstan Republic","Europe and Central Asia","KGS","3270","3970","5378","6161","7189","9304","10726","11341","12285","13483","14847","15670","16427","17232","18940","19330","National Statistical Committee of the Kyrgyz Republic"
+"Moldova, Republic of","Europe and Central Asia","MDL","1697","2065","2530","2748","2972","3042","3386","3674","4090","4538","4998","5587","6268","7234","7943","8980","National Bureau of Statistics Moldova"
+"Montenegro","Europe and Central Asia","EUR","433","497","609","643","715","722","727","726","723","725","751","765","766","773","783","793","Statistical Office of Montenegro"
+"Russian Federation","Europe and Central Asia","RUB","10634","13593","17290","18638","20952","23369","26629","29792","32495","34030","36709","39167","43724","47867","51344","56545","Russia Federal State Statistics Service"
+"Serbia","Europe and Central Asia","RSD","31745","38744","45674","44147","47450","52733","57430","60708","61426","61145","63474","65976","68629","75814","82984","90784","Statistical Office of the Republic of Serbia"
+"Tajikistan","Europe and Central Asia","TJS","122","170","243","306","361","464","573","725","859","910","987","1171","1256","1352","1412","1569","State Committee on Statistics of Tajikstan "
+"North Macedonia","Europe and Central Asia","MKD","23036","24136","26229","29922","30225","30602","30669","31025","31325","32173","32822","33688","35625","37453","40433","42873","Republic of Macedonia State Statistical Office"
+"Türkiye","Europe and Central Asia","TRY","1103","","","","1512","","","","2207","","","","3960","","","","Turkish Statistical Institute"
+"Turkmenistan","Europe and Central Asia","TMT","","507","604","678","743","848","943","1047","1153","1263","1381","1403","","","","","State Committee of Turkmenistan Statistics"
+"Ukraine","Europe and Central Asia","UAH","","","","","2250","2648","3041","3282","3480","4195","5183","7104","8865","10497","11591","","State Committee of Statistics of Ukraine"
+"Uzbekistan","Europe and Central Asia","UZS","","","81500","","504800","921300","1056800","","","","1293800","1453800","1822700","2324600","2673300","3208200","State Committee of the Republic of Uzbekistan on Statistics"
+"Argentina","Americas","ARS","981","1198","1537","1860","2303","3000","3724","4758","6168","7465","11243","13446","17045","23502","31365","47570","INDEC"
+"Belize","Americas","BZD","","","","","","","","","1506","1199","1158","1198","1218","1269","1020","","ILOSTAT"
+"Bolivia, Plurinational State of","Americas","BOB","1337","1419","1615","1698","","2042","2545","2661","3134","3160","3276","3372","3526","3627","3614","3584","ILO SIALC"
+"Brazil","Americas","BRL","824","894","971","1051","","1270","1458","1594","1730","1862","1984","2088","2196","2287","2466","2481","Brazilian Institute of Geography and Statistics (IBGE)"
+"Chile","Americas","CLP","299504","321341","351549","373221","","","478282","506227","526819","559700","571547","600070","632162","653892","702733","742744","National Statistics Institute of Chile"
+"Colombia","Americas","COP","672658","860382","940951","921476","1023646","1064974","1072370","1152113","1145431","1212616","1290862","1268917","1355017","1440625","1441367","1513647","ILO SIALC"
+"Costa Rica","Americas","CRC","263975","292599","325392","386395","420667","468832","497597","531926","568158","579249","613977","632926","645022","669281","670444","704008","Central Bank of Costa Rica"
+"Cuba","Americas","CUP","387","408","415","429","448","455","466","471","584","687","740","767","","","","","Cuba National Office of Statistics"
+"Dominican Republic","Americas","DOP","8491","9113","10183","11800","11327","12129","13259","13372","13896","13063","13570","14540","15971","16881","16879","20692","ILOSTAT"
+"Ecuador","Americas","USD","322","363","382","401","441","478","449","501","540","561","570","567","574","612","517","534","ILO SIALC"
+"El Salvador","Americas","USD","247","261","266","278","272","271","279","302","298","300","302","307","327","344","358","356","Ministry of the Economy and General Direction for Statistics and Census"
+"Guatemala","Americas","GTQ","","","","","","1967","1879","2026","2184","2186","2227","2182","2348","2377","","","Guatemala National Institute of Statistics"
+"Honduras","Americas","HNL","","","","","","","5620","6577","6577","6403","6918","6799","6790","7490","8914","7127","Honduras National Statistical Institute"
+"Mexico","Americas","MXN","5346","5651","5790","5882","5967","5989","6205","6406","6376","6580","6852","7120","7449","7828","8761","9210","Mexico National Employment Service Job Portal"
+"Nicaragua","Americas","NIO","4824","4957","5342","6010","6320","6615","6989","7463","8147","8714","9292","10239","10757","10942","10978","11017","Ministry of Labour of Nicaragua (MITRAB)"
+"Panama","Americas","PAB","547","577","608","635","706","744","817","987","1042","1115","1238","1359","1422","1185","1249","","Panama National Institute of Statistics and Census"
+"Paraguay","Americas","PYG","1197727","1245448","1402030","1471791","1672724","1897702","1870844","2078105","2227875","2280272","2297543","2420838","2594088","2618616","2515179","2616388","ILO SIALC"
+"Peru","Americas","PEN","866","937","995","1082","1100","1154","1178","1242","1310","1358","1452","1467","1510","1570","1479","1498","ILO SIALC"
+"Puerto Rico","Americas","USD","1976","2063","2128","2197","2219","2223","2245","2240","2258","2288","2284","2298","2401","2370","2466","","US Bureau of Labor Statistics"
+"Uruguay","Americas","UYU","9377","10537","11826","13703","14583","16683","17986","20217","22955","22755","27383","30293","32125","34746","36777","39983","ILO SIALC"
+"Bahrain","Arab States","BHD","","661","703","744","811","899","910","734","746","757","774","768","801","793","803","816","Kingdom of Bahrain Labour Market Regulatory Authority"
+"Jordan","Arab States","JOD","280","305","350","365","392","416","437","463","","484","493","500","524","543","546","","Jordan Department of Statistics"
+"Kuwait","Arab States","KWD","394","438","485","520","545","622","678","647","736","794","764","747","789","","","","Kuwait Central Statistical Office"
+"Lebanon","Arab States","LBP","","","","690000","","","","","","","","","","1175862","","","Lebanon Central Administration of Statistics"
+"Oman","Arab States","OMR","177","197","217","228","228","313","350","378","599","643","696","703","673","705","","","Oman Ministry of the National Economy"
+"Qatar","Arab States","QAR","5206","6318","7400","7792","","7401","8654","9667","10483","10568","10793","11099","11121","11308","11554","11703","Qatar Statistics Authority"
+"Saudi Arabia","Arab States","SAR","","","","4470","","5031","5285","5580","6099","6413","6225","6093","6272","6313","6564","","ILOSTAT"
+"Occupied Palestinian Territory","Arab States","JOD","","","","","","","","","","","","2436","2622","2776","2894","2928","ILOSTAT"
