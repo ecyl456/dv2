@@ -1,24 +1,55 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 500,
-    "height": 500,
+    "width": 900,
+    "height": 3000,
     "data": {
-        "url": "data/cars.json"
+        "url": "https://raw.githubusercontent.com/ecyl456/dv2/refs/heads/main/datasets/gross-national-income-per-capita-undp.csv",
+        "format": {
+            "type": "csv"
+        }
     },
     "mark": "rect",
     "encoding": {
         "y": {
-            "field": "Origin",
-            "type": "nominal"
+            "field": "Entity",
+            "title": "Country",
+            "type": "nominal",
+            "axis": {
+                "labelFontSize": 10,
+                "offset": 30,
+                "tickCount": 20
+            }
         },
         "x": {
-            "field": "Cylinders",
-            "type": "ordinal"
+            "field": "Year",
+            "type": "ordinal",
+            "title": "Year"
         },
         "color": {
-            "aggregate": "mean",
-            "field": "Horsepower"
-        }
+            "field": "Gross national income per capita",
+            "type": "quantitative",
+            "title": "GNI per Capita",
+            "scale": {
+                "scheme": "blues"
+            }
+        },
+        "tooltip": [
+            {
+                "field": "Entity",
+                "type": "nominal",
+                "title": "Country"
+            },
+            {
+                "field": "Year",
+                "type": "ordinal",
+                "title": "Year"
+            },
+            {
+                "field": "Gross national income per capita",
+                "type": "quantitative",
+                "title": "GNI per Capita"
+            }
+        ]
     },
     "config": {
         "axis": {
