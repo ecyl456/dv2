@@ -1,8 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Global Unemployment Rate",
     "width": 1000,
-    "height": 500,
+    "height": 600,
     "params": [
         {
             "name": "Year_selection",
@@ -81,19 +80,18 @@
         },
         {
             "data": {
-                "url": "https://raw.githubusercontent.com/ecyl456/dv2/refs/heads/main/datasets/unemployment-rate.csv"
+                "url": "https://raw.githubusercontent.com/ecyl456/dv2/refs/heads/main/normalised_csv.csv"
             },
             "transform": [
                 {
                     "filter": "datum.Year == Year_selection"
                 },
                 {
-                    "calculate": "datum.Entity == 'United States' ? 'United States of America' : datum.Entity",
-                    "as": "Standardized_Country"
+                    "filter": "datum.Entity !== 'Arab States (UNDP)' &&datum.Entity !== 'Low human development (UNDP)' && datum.Entity !== 'Medium human development (UNDP)' && datum.Entity !== 'East Asia and the Pacific (UNDP)' && datum.Entity !== 'World' && datum.Entity !== 'Europe and Central Asia (UNDP)' && datum.Entity !== 'High human development (UNDP)' && datum.Entity !== 'Very high human development (UNDP)' &&  datum.Entity !== 'Sub-Saharan Africa (UNDP)' &&  datum.Entity !== 'South Asia (UNDP)' && datum.Entity !== 'Latin America and the Caribbean (UNDP)'"
                 },
                 {
-                    "calculate": "datum.Standardized_Country + ': ' + datum['Unemployment, total (% of total labor force) (modeled ILO estimate)']",
-                    "as": "combined_text"
+                    "calculate": "datum.Entity == 'Serbia' ? 'Republic of Serbia' : datum.Entity == 'Bosnia and Herzegovina' ? 'Bosnia and Herz.' : datum.Entity == 'Ukraine' ? 'Ukraine' : datum.Entity == 'Tanzania' ? 'Tanzania' : datum.Entity == 'Dominican Republic' ? 'Dominican Rep.' : datum.Entity == 'South Sudan' ? 'S. Sudan' : datum.Entity == 'Central African Republic' ? 'Central African Rep.' : datum.Entity == 'Bahamas' ? 'The Bahamas' : datum.Entity == 'Cape Verde' ? 'Cabo Verde' : datum.Entity == 'Congo' ? 'Congo' : datum.Entity == 'Cote d\\'Ivoire' ? 'Côte d\\'Ivoire' : datum.Entity == 'Democratic Republic of Congo' ? 'Dem. Rep. Congo' : datum.Entity == 'Eswatini' ? 'eSwatini' : datum.Entity == 'Micronesia (country)' ? 'Federated States of Micronesia' : datum.Entity == 'Hong Kong' ? 'Hong Kong S.A.R.' : datum.Entity == 'United States' ? 'United States of America' : datum.Entity == 'Tanzania' ? 'United Republic of Tanzania'  :  datum.Entity == 'Serbia' ? 'Republic of Serbia' : datum.Entity == 'Sao Tome and Principe' ? 'São Tomé and Principe' :  datum.Entity",
+                    "as": "Standardized_Country"
                 },
                 {
                     "lookup": "Standardized_Country",
@@ -115,7 +113,7 @@
                     "mark": {
                         "type": "geoshape",
                         "stroke": "#fff",
-                        "strokeWidth": 0.5
+                        "strokeWidth": 1
                     },
                     "encoding": {
                         "shape": {
@@ -123,13 +121,13 @@
                             "type": "geojson"
                         },
                         "color": {
-                            "field": "Unemployment, total (% of total labor force) (modeled ILO estimate)",
+                            "field": "Normalized_Unemployment",
                             "type": "quantitative",
                             "scale": {
                                 "type": "linear",
                                 "domain": [
                                     0,
-                                    35
+                                    1
                                 ],
                                 "range": [
                                     "lightblue",
@@ -147,7 +145,7 @@
                                 "title": "Country"
                             },
                             {
-                                "field": "Unemployment, total (% of total labor force) (modeled ILO estimate)",
+                                "field": "Normalized_Unemployment",
                                 "type": "quantitative",
                                 "title": "Unemployment Rate"
                             }
@@ -157,5 +155,10 @@
             ]
         }
     ],
-    "config": {}
+    "config": {
+        "legend": {
+            "orient": "bottom",
+            "offset": 20
+        }
+    }
 }

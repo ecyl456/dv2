@@ -1,0 +1,86 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 300,
+    "height": 300,
+    "description": "A donut chart with the most recent year's data.",
+    "data": {
+        "url": "https://raw.githubusercontent.com/ecyl456/dv2/refs/heads/main/datasets/gross-national-income-per-capita-undp.csv"
+    },
+    "transform": [
+        {
+            "window": [
+                {
+                    "op": "rank",
+                    "as": "year_rank"
+                }
+            ],
+            "sort": [
+                {
+                    "field": "Year",
+                    "order": "descending"
+                }
+            ],
+            "groupby": [
+                "Entity"
+            ]
+        },
+        {
+            "filter": "datum.year_rank == 1"
+        },
+        {
+            "window": [
+                {
+                    "op": "dense_rank",
+                    "as": "rank"
+                }
+            ],
+            "sort": [
+                {
+                    "field": "Gross national income per capita",
+                    "order": "descending"
+                }
+            ]
+        },
+        {
+            "filter": "datum.rank <= 10"
+        }
+    ],
+    "mark": {
+        "type": "arc",
+        "innerRadius": 50
+    },
+    "encoding": {
+        "theta": {
+            "field": "Gross national income per capita",
+            "type": "quantitative"
+        },
+        "color": {
+            "field": "Entity",
+            "type": "nominal"
+        },
+        "tooltip": [
+            {
+                "field": "Entity",
+                "type": "nominal"
+            },
+            {
+                "field": "Gross national income per capita",
+                "title": "Gross National Income Per Capita",
+                "type": "quantitative",
+                "format": ",d"
+            },
+            {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        ]
+    },
+    "config": {
+        "view": {
+            "stroke": "transparent"
+        },
+        "legend": {
+            "orient": "right"
+        }
+    }
+}

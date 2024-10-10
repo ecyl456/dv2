@@ -1,0 +1,83 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 800,
+    "height": 400,
+    "data": {
+        "url": "https://raw.githubusercontent.com/ecyl456/dv2/refs/heads/main/datasets/duration-of-compulsory-education.csv",
+        "format": {
+            "type": "csv"
+        }
+    },
+    "transform": [
+        {
+            "filter": "datum.Year >= 1998 && datum.Year <= 2022"
+        },
+        {
+            "aggregate": [
+                {
+                    "op": "average",
+                    "field": "Duration of compulsory education (years)",
+                    "as": "Average Duration"
+                }
+            ],
+            "groupby": [
+                "Entity"
+            ]
+        },
+        {
+            "filter": "datum['Average Duration'] > 0"
+        },
+        {
+            "window": [
+                {
+                    "op": "rank",
+                    "as": "Rank"
+                }
+            ],
+            "sort": [
+                {
+                    "field": "Average Duration",
+                    "order": "descending"
+                }
+            ]
+        },
+        {
+            "filter": "datum.Rank <= 10"
+        }
+    ],
+    "mark": "bar",
+    "encoding": {
+        "x": {
+            "field": "Entity",
+            "type": "nominal",
+            "title": "Country",
+            "sort": "-y"
+        },
+        "y": {
+            "field": "Average Duration",
+            "type": "quantitative",
+            "title": "Average Duration of Compulsory Education (years)"
+        },
+        "color": {
+            "field": "Entity",
+            "type": "nominal",
+            "title": "Country"
+        },
+        "tooltip": [
+            {
+                "field": "Entity",
+                "type": "nominal"
+            },
+            {
+                "field": "Average Duration",
+                "type": "quantitative"
+            }
+        ]
+    },
+    "config": {
+        "legend": {
+            "orient": "bottom",
+            "offset": 20
+        }
+    }
+}

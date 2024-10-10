@@ -1,8 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 1000,
+    "width": 1200,
     "height": 600,
-    "title": "Global Expected Years of Schooling (1990-1994)",
     "params": [
         {
             "name": "Year_selection",
@@ -16,43 +15,12 @@
             }
         },
         {
-            "name": "selected_country",
-            "value": null,
-            "bind": {
-                "input": "select",
-                "options": [
-                    null,
-                    "Malaysia",
-                    "Australia"
-                ],
-                "labels": [
-                    "World Map",
-                    "Malaysia",
-                    "Australia"
-                ],
-                "name": "Select country: "
-            }
-        },
-        {
             "name": "zoom_level",
-            "value": 200,
-            "bind": {
-                "input": "range",
-                "min": 200,
-                "max": 6000,
-                "step": 100,
-                "name": "Zoom: "
-            }
+            "value": 500
         }
     ],
     "projection": {
-        "type": "naturalEarth1",
-        "scale": {
-            "expr": "selected_country ? zoom_level : zoom_level"
-        },
-        "center": {
-            "expr": "selected_country ? (selected_country == 'Malaysia' ? [101.9758, 4.2105] : selected_country == 'Australia' ? [133.7751, -25.2744] : [0, 0]) : [0, 0]"
-        }
+        "type": "naturalEarth1"
     },
     "layer": [
         {
@@ -78,7 +46,7 @@
                     "filter": "datum.Year == Year_selection"
                 },
                 {
-                    "filter": "datum.Entity !== 'Arab States (UNDP)' &&datum.Entity !== 'Low human development (UNDP)' && datum.Entity !== 'Medium human development (UNDP)' && datum.Entity !== 'East Asia and the Pacific (UNDP)' && datum.Entity !== 'World' && datum.Entity !== 'Europe and Central Asia (UNDP)' && datum.Entity !== 'High human development (UNDP)' && datum.Entity !== 'Very high human development (UNDP)' &&  datum.Entity !== 'Sub-Saharan Africa (UNDP)' &&  datum.Entity !== 'South Asia (UNDP)' && datum.Entity !== 'Latin America and the Caribbean (UNDP)'"
+                    "filter": "datum.Entity !== 'Arab States (UNDP)' && datum.Entity !== 'Low human development (UNDP)' && datum.Entity !== 'Medium human development (UNDP)' && datum.Entity !== 'East Asia and the Pacific (UNDP)' && datum.Entity !== 'World' && datum.Entity !== 'Europe and Central Asia (UNDP)' && datum.Entity !== 'High human development (UNDP)' && datum.Entity !== 'Very high human development (UNDP)' &&  datum.Entity !== 'Sub-Saharan Africa (UNDP)' &&  datum.Entity !== 'South Asia (UNDP)' && datum.Entity !== 'Latin America and the Caribbean (UNDP)'"
                 },
                 {
                     "calculate": "datum.Entity == 'Bahamas' ? 'The Bahamas' : datum.Entity == 'Cape Verde' ? 'Cabo Verde' : datum.Entity == 'Congo' ? 'Republic of the Congo' : datum.Entity == 'Cote d\\'Ivoire' ? 'Ivory Coast' : datum.Entity == 'Democratic Republic of Congo' ? 'Democratic Republic of the Congo' : datum.Entity == 'Eswatini' ? 'eSwatini' : datum.Entity == 'Micronesia (country)' ? 'Federated States of Micronesia' : datum.Entity == 'Hong Kong' ? 'Hong Kong S.A.R.' : datum.Entity == 'United States' ? 'United States of America' : datum.Entity == 'Tanzania' ? 'United Republic of Tanzania'  :  datum.Entity == 'Serbia' ? 'Republic of Serbia' : datum.Entity == 'Sao Tome and Principe' ? 'São Tomé and Principe' :  datum.Entity",
@@ -117,6 +85,10 @@
                 "tooltip": true
             },
             "encoding": {
+                "shape": {
+                    "field": "geo",
+                    "type": "geojson"
+                },
                 "longitude": {
                     "field": "longitude",
                     "type": "quantitative"
@@ -130,11 +102,12 @@
                     "type": "quantitative",
                     "scale": {
                         "range": [
-                            20,
-                            400
+                            0,
+                            300
                         ],
                         "domain": [
                             0,
+                            13,
                             25
                         ]
                     }
@@ -154,13 +127,15 @@
                     {
                         "field": "expected_years",
                         "title": "Expected Years of Schooling"
-                    },
-                    {
-                        "field": "debug_entity",
-                        "title": "Debug Entity"
                     }
                 ]
             }
         }
-    ]
+    ],
+    "config": {
+        "legend": {
+            "orient": "right",
+            "offset": 20
+        }
+    }
 }

@@ -1,44 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<style type="text/css">
-    h1 {
-        font-size: large;
-        color: black;
-        justify-content: center;
-        text-align: center;
-    }
-
-    div {
-        justify-content: center;
-    }
-
-    .grid-container {
-        display: grid;
-        grid-template-columns: auto auto;
-        gap: 5%;
-        background-color: #2196F3;
-        padding: 10px;
-    }
-
-    .grid-container .grid-item {
-        background-color: rgba(255, 255, 255, 0.8);
-        text-align: left;
-        align-items: center;
-        justify-content: center;
-        padding: 20px;
-    }
-
-    #text {
-        background-color: rgba(255, 255, 255, 0.8);
-        text-align: left;
-        align-items: center;
-        justify-content: center;
-        padding: 20px;
-        font-size: 20px;
-    }
-</style>
 
 <head>
+    <style type="text/css">
+        body {
+            background-color: rgba(233, 255, 229, 0.964);
+        }
+
+        h1 {
+            font-size: 20px;
+            color: black;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        h2 {
+            font-size: 18px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: normal;
+            margin: 5%;
+
+        }
+
+        title {
+            justify-content: center;
+        }
+
+        #mainTitle {
+            font-size: 30px;
+            background-color: rgb(203, 203, 203);
+        }
+
+
+        .grid-container {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+
+        .grid-container .grid-item {
+            justify-content: center;
+            justify-items: center;
+            text-align: center;
+            margin: 2%;
+            border: 5px;
+            border-style: solid;
+            border-radius: 2%;
+        }
+
+
+        #donut,
+        #choropleth,
+        #bar,
+        #propSym {
+            justify-items: center;
+        }
+
+        #text {
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            font-size: 20px;
+        }
+
+        #twoCol {
+            margin: 5%;
+            border: 5px;
+            border-style: solid;
+            border-radius: 2%;
+
+        }
+    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -50,48 +85,134 @@
 </head>
 
 <body>
-    <h1>Global Education and Income</h1>
+    <h1 id="mainTitle">Global Education and Income</h1>
     <div class="grid-container">
-        <div class="grid-item">
-            <div id="propSym"></div>
-
-        </div>
         <div class="grid-item" id="text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-            has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-            type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-            leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-            release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-            software like Aldus PageMaker including versions of Lorem Ipsum.
+            <h1>Global Unemployment Rate</h1>
 
-        </div>
-    </div>
-    <hr>
+            <div id="choropleth"></div>
+            <div class="grid-item">
+                <h2>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                    has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                    galley
+                    of
+                    type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                    also
+                    the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with
+                    the
+                    release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing
+                    software like Aldus PageMaker including versions of Lorem Ipsum.
+                </h2>
 
-    <div id="parallel">
-    </div>
-    <hr>
-    <div class="grid-container">
-
-        <div class="grid-item">
-            <div id="choropleth">
             </div>
         </div>
-        <div class="grid-item" id="text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-            has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-            of
-            type and scrambled it to make a type specimen book. It has survived not only five centuries, but also
-            the
-            leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-            the
-            release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-            software like Aldus PageMaker including versions of Lorem Ipsum.
+    </div>
 
+    <hr>
+    <div class="grid-container">
+        <div class="grid-item" id="text">
+            <h1>Average Duration of Compulsory Education (Top 10 Countries)</h1>
+
+            <div id="bar"></div>
+            <div class="grid-item">
+                <h2>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                    has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                    galley
+                    of
+                    type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                    also
+                    the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with
+                    the
+                    release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing
+                    software like Aldus PageMaker including versions of Lorem Ipsum.
+                </h2>
+
+            </div>
         </div>
     </div>
+    <hr>
+
+    <div class="grid-container" id="twoCol">
+        <div class="grid-item">
+            <h1>Gross National Income Per Capita</h1>
+            <div id="donut"></div>
+            <div class="grid-item">
+                <h2>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                    has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                    galley
+                    of
+                    type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                    also
+                    the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with
+                    the
+                    release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing
+                    software like Aldus PageMaker including versions of Lorem Ipsum.
+                </h2>
+
+            </div>
+        </div>
+        <div class="grid-item">
+            <h1>Gross National Income Per Capita</h1>
+            <div id="stackBar"></div>
+            <div class="grid-item">
+                <h2>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                    has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                    galley
+                    of
+                    type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                    also
+                    the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with
+                    the
+                    release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing
+                    software like Aldus PageMaker including versions of Lorem Ipsum.
+                </h2>
+
+            </div>
+        </div>
     </div>
 
+    <hr>
+    <div class="grid-container">
+        <div class="grid-item" id="text">
+            <h1>Global Expected Years of Schooling</h1>
+            <div id="propSym"></div>
+            <br>
+            <div class="grid-item">
+                <h2>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                    has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                    galley
+                    of
+                    type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                    also
+                    the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with
+                    the
+                    release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing
+                    software like Aldus PageMaker including versions of Lorem Ipsum.
+                </h2>
+
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

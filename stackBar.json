@@ -1,0 +1,104 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 600,
+    "height": 400,
+    "data": {
+        "url": "https://raw.githubusercontent.com/ecyl456/dv2/refs/heads/main/datasets/primary-secondary-enrollment-completion-rates.csv"
+    },
+    "params": [
+        {
+            "name": "Year_selection",
+            "value": 2022,
+            "bind": {
+                "input": "range",
+                "min": 1991,
+                "max": 2022,
+                "step": 1,
+                "name": "Year: "
+            }
+        }
+    ],
+    "transform": [
+        {
+            "filter": "datum.Year == Year_selection"
+        },
+        {
+            "window": [
+                {
+                    "op": "rank",
+                    "as": "rank"
+                }
+            ],
+            "sort": [
+                {
+                    "field": "Gross enrolment ratio for tertiary education, both sexes (%), GER\\.5T8",
+                    "order": "descending"
+                }
+            ]
+        },
+        {
+            "filter": "datum.rank <= 10"
+        },
+        {
+            "fold": [
+                "Gross enrolment ratio, primary, both sexes (%)",
+                "Gross enrolment ratio, secondary, both sexes (%)",
+                "Gross enrolment ratio for tertiary education, both sexes (%), GER\\.5T8"
+            ],
+            "as": [
+                "Enrollment Type",
+                "Ratio"
+            ]
+        }
+    ],
+    "mark": "bar",
+    "encoding": {
+        "x": {
+            "field": "Entity",
+            "type": "ordinal",
+            "title": "Country",
+            "axis": {
+                "labelAngle": -45
+            }
+        },
+        "xOffset": {
+            "field": "Enrollment Type"
+        },
+        "y": {
+            "field": "Ratio",
+            "type": "quantitative",
+            "title": "Enrollment Ratio"
+        },
+        "color": {
+            "field": "Enrollment Type",
+            "type": "nominal",
+            "scale": {
+                "domain": [
+                    "Gross enrolment ratio, primary, both sexes (%)",
+                    "Gross enrolment ratio, secondary, both sexes (%)",
+                    "Gross enrolment ratio for tertiary education, both sexes (%), GER.5T8"
+                ],
+                "range": [
+                    "#e7ba52",
+                    "#c7c7c7",
+                    "#aec7e8"
+                ]
+            },
+            "title": "Enrollment Type"
+        },
+        "tooltip": [
+            {
+                "field": "Entity",
+                "title": "Country"
+            },
+            {
+                "field": "Year",
+                "title": "Year"
+            },
+            {
+                "field": "Ratio",
+                "title": "Enrollment Ratio"
+            }
+        ]
+    }
+}
