@@ -52,7 +52,21 @@
         },
         "color": {
             "field": "Entity",
-            "type": "nominal"
+            "type": "nominal",
+            "scale": {
+                "range": [
+                    "#f09784",
+                    "#a6daed",
+                    "#52a397",
+                    "#627067",
+                    "#5d357a",
+                    "#c6dba2",
+                    "#3498DB",
+                    "#32c9bf",
+                    "#a36288",
+                    "#a7a4bf"
+                ]
+            }
         },
         "tooltip": [
             {
@@ -77,7 +91,14 @@
             "stroke": "transparent"
         },
         "legend": {
-            "orient": "right"
+            "orient": "bottom",
+            "offset": 185
+        },
+        "padding": {
+            "top": 120,
+            "left": 50,
+            "right": 50,
+            "bottom": 40
         }
     }
 }

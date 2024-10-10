@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 1000,
+    "width": 1330,
     "height": 600,
     "params": [
         {
@@ -40,7 +40,8 @@
                 "min": 200,
                 "max": 6000,
                 "step": 100,
-                "name": "Zoom: "
+                "name": "Zoom: ",
+                "element": "custom-slider"
             }
         }
     ],
@@ -87,10 +88,10 @@
                     "filter": "datum.Year == Year_selection"
                 },
                 {
-                    "filter": "datum.Entity !== 'Arab States (UNDP)' &&datum.Entity !== 'Low human development (UNDP)' && datum.Entity !== 'Medium human development (UNDP)' && datum.Entity !== 'East Asia and the Pacific (UNDP)' && datum.Entity !== 'World' && datum.Entity !== 'Europe and Central Asia (UNDP)' && datum.Entity !== 'High human development (UNDP)' && datum.Entity !== 'Very high human development (UNDP)' &&  datum.Entity !== 'Sub-Saharan Africa (UNDP)' &&  datum.Entity !== 'South Asia (UNDP)' && datum.Entity !== 'Latin America and the Caribbean (UNDP)'"
+                    "filter": "datum.Entity !== 'Arab States (UNDP)' && datum.Entity !== 'Low human development (UNDP)' && datum.Entity !== 'Medium human development (UNDP)' && datum.Entity !== 'East Asia and the Pacific (UNDP)' && datum.Entity !== 'World' && datum.Entity !== 'Europe and Central Asia (UNDP)' && datum.Entity !== 'High human development (UNDP)' && datum.Entity !== 'Very high human development (UNDP)' && datum.Entity !== 'Sub-Saharan Africa (UNDP)' && datum.Entity !== 'South Asia (UNDP)' && datum.Entity !== 'Latin America and the Caribbean (UNDP)'"
                 },
                 {
-                    "calculate": "datum.Entity == 'Serbia' ? 'Republic of Serbia' : datum.Entity == 'Bosnia and Herzegovina' ? 'Bosnia and Herz.' : datum.Entity == 'Ukraine' ? 'Ukraine' : datum.Entity == 'Tanzania' ? 'Tanzania' : datum.Entity == 'Dominican Republic' ? 'Dominican Rep.' : datum.Entity == 'South Sudan' ? 'S. Sudan' : datum.Entity == 'Central African Republic' ? 'Central African Rep.' : datum.Entity == 'Bahamas' ? 'The Bahamas' : datum.Entity == 'Cape Verde' ? 'Cabo Verde' : datum.Entity == 'Congo' ? 'Congo' : datum.Entity == 'Cote d\\'Ivoire' ? 'Côte d\\'Ivoire' : datum.Entity == 'Democratic Republic of Congo' ? 'Dem. Rep. Congo' : datum.Entity == 'Eswatini' ? 'eSwatini' : datum.Entity == 'Micronesia (country)' ? 'Federated States of Micronesia' : datum.Entity == 'Hong Kong' ? 'Hong Kong S.A.R.' : datum.Entity == 'United States' ? 'United States of America' : datum.Entity == 'Tanzania' ? 'United Republic of Tanzania'  :  datum.Entity == 'Serbia' ? 'Republic of Serbia' : datum.Entity == 'Sao Tome and Principe' ? 'São Tomé and Principe' :  datum.Entity",
+                    "calculate": "datum.Entity == 'Serbia' ? 'Republic of Serbia' : datum.Entity == 'Bosnia and Herzegovina' ? 'Bosnia and Herz.' : datum.Entity == 'Ukraine' ? 'Ukraine' : datum.Entity == 'Tanzania' ? 'Tanzania' : datum.Entity == 'Dominican Republic' ? 'Dominican Rep.' : datum.Entity == 'South Sudan' ? 'S. Sudan' : datum.Entity == 'Central African Republic' ? 'Central African Rep.' : datum.Entity == 'Bahamas' ? 'The Bahamas' : datum.Entity == 'Cape Verde' ? 'Cabo Verde' : datum.Entity == 'Congo' ? 'Congo' : datum.Entity == 'Cote d\\'Ivoire' ? 'Côte d\\'Ivoire' : datum.Entity == 'Democratic Republic of Congo' ? 'Dem. Rep. Congo' : datum.Entity == 'Eswatini' ? 'eSwatini' : datum.Entity == 'Micronesia (country)' ? 'Federated States of Micronesia' : datum.Entity == 'Hong Kong' ? 'Hong Kong S.A.R.' : datum.Entity == 'United States' ? 'United States of America' : datum.Entity == 'Tanzania' ? 'United Republic of Tanzania' : datum.Entity == 'Serbia' ? 'Republic of Serbia' : datum.Entity == 'Sao Tome and Principe' ? 'São Tomé and Principe' : datum.Entity",
                     "as": "Standardized_Country"
                 },
                 {
@@ -153,12 +154,143 @@
                     }
                 }
             ]
+        },
+        {
+            "data": {
+                "url": "https://raw.githubusercontent.com/ecyl456/dv2/refs/heads/main/normalised_csv.csv"
+            },
+            "transform": [
+                {
+                    "filter": "datum.Year == Year_selection"
+                },
+                {
+                    "aggregate": [
+                        {
+                            "op": "max",
+                            "field": "Normalized_Unemployment",
+                            "as": "max_value"
+                        },
+                        {
+                            "op": "argmax",
+                            "field": "Normalized_Unemployment",
+                            "as": "country_with_max_value"
+                        }
+                    ]
+                }
+            ],
+            "layer": [
+                {
+                    "mark": {
+                        "type": "rect",
+                        "fill": "lightgray",
+                        "stroke": "black",
+                        "strokeWidth": 1
+                    },
+                    "encoding": {
+                        "x": {
+                            "value": 20
+                        },
+                        "y": {
+                            "value": 490
+                        },
+                        "x2": {
+                            "value": 240
+                        },
+                        "y2": {
+                            "value": 570
+                        }
+                    }
+                },
+                {
+                    "mark": {
+                        "type": "text",
+                        "fontSize": 15,
+                        "stroke": "black",
+                        "strokeWidth": 0.5,
+                        "strokeOpacity": 1,
+                        "cornerRadius": 5,
+                        "align": "left",
+                        "dx": 1,
+                        "dy": -5
+                    },
+                    "encoding": {
+                        "text": {
+                            "value": "Country with the highest rate:"
+                        },
+                        "x": {
+                            "value": 30
+                        },
+                        "y": {
+                            "value": 515
+                        }
+                    }
+                },
+                {
+                    "mark": {
+                        "type": "text",
+                        "fontSize": 15,
+                        "stroke": "black",
+                        "strokeWidth": 1,
+                        "strokeOpacity": 1,
+                        "cornerRadius": 5,
+                        "align": "left",
+                        "dx": 1,
+                        "dy": -5
+                    },
+                    "encoding": {
+                        "text": {
+                            "field": "country_with_max_value.Entity",
+                            "type": "nominal",
+                            "title": "Country with Highest Rate"
+                        },
+                        "x": {
+                            "value": 30
+                        },
+                        "y": {
+                            "value": 540
+                        }
+                    }
+                },
+                {
+                    "mark": {
+                        "type": "text",
+                        "fontSize": 15,
+                        "stroke": "black",
+                        "strokeWidth": 1,
+                        "strokeOpacity": 1,
+                        "cornerRadius": 5,
+                        "align": "left"
+                    },
+                    "encoding": {
+                        "text": {
+                            "field": "max_value",
+                            "type": "nominal",
+                            "title": "Country with Highest Rate"
+                        },
+                        "x": {
+                            "value": 30
+                        },
+                        "y": {
+                            "value": 555
+                        }
+                    }
+                }
+            ]
         }
     ],
     "config": {
         "legend": {
             "orient": "bottom",
-            "offset": 20
+            "offset": 20,
+            "labelFontSize": 12,
+            "titleFontSize": 14,
+            "labelFontWeight": "bold"
+        },
+        "padding": {
+            "top": 20,
+            "bottom": 20,
+            "left": 20,
+            "right": 20
         }
     }
 }

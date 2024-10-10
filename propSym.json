@@ -33,7 +33,7 @@
             },
             "mark": {
                 "type": "geoshape",
-                "fill": "lightgray",
+                "fill": "#6375af4e",
                 "stroke": "white"
             }
         },
@@ -103,7 +103,7 @@
                     "scale": {
                         "range": [
                             0,
-                            300
+                            100
                         ],
                         "domain": [
                             0,

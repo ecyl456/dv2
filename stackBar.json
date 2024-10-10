@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 600,
+    "width": 400,
     "height": 400,
     "data": {
         "url": "https://raw.githubusercontent.com/ecyl456/dv2/refs/heads/main/datasets/primary-secondary-enrollment-completion-rates.csv"
@@ -58,7 +58,13 @@
             "type": "ordinal",
             "title": "Country",
             "axis": {
-                "labelAngle": -45
+                "labelFontSize": 12,
+                "titleFontSize": 14,
+                "labelColor": "#000000",
+                "labelFontWeight": "bold",
+                "titleFontWeight": "normal",
+                "titlePadding": 20,
+                "labelAngle": -50
             }
         },
         "xOffset": {
@@ -67,7 +73,15 @@
         "y": {
             "field": "Ratio",
             "type": "quantitative",
-            "title": "Enrollment Ratio"
+            "title": "Enrollment Ratio",
+            "axis": {
+                "labelFontSize": 12,
+                "titleFontSize": 14,
+                "labelColor": "#000000",
+                "labelFontWeight": "bold",
+                "titleFontWeight": "normal",
+                "titlePadding": 40
+            }
         },
         "color": {
             "field": "Enrollment Type",
@@ -79,9 +93,9 @@
                     "Gross enrolment ratio for tertiary education, both sexes (%), GER.5T8"
                 ],
                 "range": [
-                    "#e7ba52",
-                    "#c7c7c7",
-                    "#aec7e8"
+                    "#f7dcda",
+                    "#7fc5c7",
+                    "#aaa3e6"
                 ]
             },
             "title": "Enrollment Type"
@@ -100,5 +114,19 @@
                 "title": "Enrollment Ratio"
             }
         ]
+    },
+    "config": {
+        "view": {
+            "stroke": "transparent"
+        },
+        "legend": {
+            "orient": "bottom"
+        },
+        "padding": {
+            "top": 100,
+            "bottom": 40,
+            "left": 70,
+            "right": 50
+        }
     }
 }
