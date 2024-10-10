@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 1520,
+    "width": 1020,
     "height": 400,
     "data": {
         "url": "https://raw.githubusercontent.com/ecyl456/dv2/refs/heads/main/datasets/share-of-population-15-years-and-older-with-no-education.csv",

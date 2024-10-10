@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 600,
-    "height": 400,
+    "width": 380,
+    "height": 200,
     "description": "A donut chart with the most recent year's data.",
     "params": [
         {
@@ -24,6 +24,13 @@
             "filter": "datum.Year == Year_selection"
         },
         {
+            "calculate": "toNumber(datum['Gross national income per capita'])",
+            "as": "GNI_per_capita"
+        },
+        {
+            "filter": "isValid(datum.GNI_per_capita) && !isNaN(datum.GNI_per_capita)"
+        },
+        {
             "window": [
                 {
                     "op": "rank",
@@ -32,7 +39,7 @@
             ],
             "sort": [
                 {
-                    "field": "Gross national income per capita",
+                    "field": "GNI_per_capita",
                     "order": "descending"
                 }
             ]
@@ -47,7 +54,7 @@
     },
     "encoding": {
         "theta": {
-            "field": "Gross national income per capita",
+            "field": "GNI_per_capita",
             "type": "quantitative"
         },
         "color": {
@@ -74,7 +81,7 @@
                 "type": "nominal"
             },
             {
-                "field": "Gross national income per capita",
+                "field": "GNI_per_capita",
                 "title": "Gross National Income Per Capita",
                 "type": "quantitative",
                 "format": ",d"
@@ -91,13 +98,13 @@
             "stroke": "transparent"
         },
         "legend": {
-            "orient": "bottom",
-            "offset": 185
+            "orient": "right",
+            "padding": 30
         },
         "padding": {
-            "top": 120,
-            "left": 50,
-            "right": 50,
+            "top": 30,
+            "left": 100,
+            "right": 20,
             "bottom": 40
         }
     }

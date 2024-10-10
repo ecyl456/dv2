@@ -4,14 +4,13 @@
 <head>
     <style type="text/css">
         body {
-            background-color: rgb(218, 218, 218);
+            background: linear-gradient(to bottom, #e9fbfa, #a1bac8);
             font-family: sans-serif;
             margin: 5%;
         }
 
         hr {
-            margin-top: 2%;
-            margin-bottom: 5%;
+            margin: 2%
         }
 
         h1 {
@@ -26,17 +25,26 @@
             font-size: 35px;
             font-weight: heavy;
             color: rgb(41, 66, 69);
-            margin: 2%;
+            margin: 5%;
+            text-align: center;
 
         }
 
         h3 {
+            font-size: 16px;
             text-align: center;
             font-weight: normal;
         }
 
         #title-description {
             padding: 0%
+        }
+
+        #titleContainer {
+            border-radius: 1%;
+            border-style: solid;
+            border-color: black;
+
         }
 
         #choropleth,
@@ -66,6 +74,7 @@
         .grid-container .grid-item {
             justify-content: center;
             justify-items: center;
+            align-content: center;
             text-align: center;
         }
 
@@ -76,6 +85,10 @@
             justify-content: center;
             padding: 10px;
             font-size: 20px;
+        }
+
+        #symbolMapText {
+            text-align: left;
         }
     </style>
     <meta charset="UTF-8">
@@ -89,7 +102,9 @@
 </head>
 
 <body>
-    <h1 id="mainTitle">Global Education and Socioeconomic Indicators</h1>
+    <div id='titleContainer'>
+        <h1 id="mainTitle">Global Education and Socioeconomic Indicators</h1>
+    </div>
     <br>
     <div class="grid-item">
         <h3 id="title-description">
@@ -111,20 +126,16 @@
             <div id="choropleth"></div>
             <div class="grid-item">
                 <h3>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                    has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                    galley
-                    of
-                    type and scrambled it to make a type specimen book. It has survived not only five centuries, but
-                    also
-                    the
-                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
-                    1960s
-                    with
-                    the
-                    release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                    publishing
-                    software like Aldus PageMaker including versions of Lorem Ipsum.
+                    We can observe from above that most of the countries observed with <b>high unemployments seem to be
+                        focused around Africa and smaller countries
+                        in south-west Europe</b>.
+                    The continents that seem to consistently have <b>low unemployment rates are primarily observed
+                        in the Americas, Asia and Australia</b>. With this information in mind, we can use this
+                    information to
+                    observe
+                    if there is a trend amongst low and high unemployment rate countries and other socioeconomic
+                    factors.
+
                 </h3>
 
             </div>
@@ -141,19 +152,13 @@
 
             <div class="grid-item">
                 <h3>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                    has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                    galley
-                    of
-                    type and scrambled it to make a type specimen book. It has survived not only five centuries, but
-                    also
-                    the
-                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                    with
-                    the
-                    release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                    publishing
-                    software like Aldus PageMaker including versions of Lorem Ipsum.
+                    The bar chart shows us the top 10 countries with the highest rates of youths and adults ranged 15 to
+                    16 which do not have education.
+                    The findings appear <em>consistent with what the choropleth map suggests</em>, which shows that
+                    African
+                    countries <b>8 out 10 countries amongst the top 10 are in Africa, while 2 are in Asia</b>.
+                    Based on these findings, we can observe that unemployment rates and a lack of education appears to
+                    have some correlation.
                 </h3>
             </div>
 
@@ -161,55 +166,50 @@
     </div>
     <hr>
 
+    <h2>Gross National Income Per Capita, Top 10 Countries</h2>
+
     <div class="grid-container" id="twoCol">
         <div class="grid-item">
-            <h2>Gross National Income Per Capita</h2>
             <div id="donut"></div>
 
         </div>
+
         <div class="grid-item">
-            <h2>Primary, Secondary & Tertiary Enrolment Ratio</h2>
-            <div id="stackBar"></div>
-
+            <h3>
+                The donut chart in comparison to the previous charts shows that countries primarily among the top 10
+                globally
+                with the highest gross national income, <b>remains largely consistent across the years.</b> Among these
+                countries, we can observe that <em>many are among Asia and Europe, but there are no African
+                    countries among
+                    the top 10
+                    across the years.</em> These findings are consitent with the trends observed so far.
+            </h3>
         </div>
-
     </div>
+
+    <hr>
+    <h2>Primary, Secondary & Tertiary Enrolment Ratio</h2>
+
     <div class="grid-container" id="twoCol">
         <div class="grid-item">
-            <h3>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                galley
-                of
-                type and scrambled it to make a type specimen book. It has survived not only five centuries, but
-                also
-                the
-                leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                with
-                the
-                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                publishing
-                software like Aldus PageMaker including versions of Lorem Ipsum.
-            </h3>
+            <div id="stackBar"></div>
         </div>
         <div class="grid-item">
             <h3>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                galley
-                of
-                type and scrambled it to make a type specimen book. It has survived not only five centuries, but
-                also
-                the
-                leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                with
-                the
-                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                publishing
-                software like Aldus PageMaker including versions of Lorem Ipsum.
+                Based on the stacked bar chart, we primarily focus on the even distribution of all levels of enrolment.
+                The top 10 countries globally
+                are selected by their rates of tertiary education enrolment. <br><br>Amongst the countries selected, we
+                can
+                see
+                that the countries which typically
+                have an even distribution of primary, secondary and tertiary education levels still remain consistent
+                with our findings so far. These countries
+                <em>mostly consists of European and Asian countries.</em>
             </h3>
-
         </div>
+    </div>
+
+
     </div>
 
     <hr>
@@ -217,26 +217,31 @@
         <div class="grid-item" id="text">
             <h2>Global Expected Years of Schooling</h2>
             <div id="propSym"></div>
-            <br>
-            <div class="grid-item">
-                <h3>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                    has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                    galley
-                    of
-                    type and scrambled it to make a type specimen book. It has survived not only five centuries, but
-                    also
-                    the
-                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                    with
-                    the
-                    release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                    publishing
-                    software like Aldus PageMaker including versions of Lorem Ipsum.
-                </h3>
+            <div class="grid-container" id="twoCol">
+                <div class="grid-item">
+                    <h3 id="symbolMapText">
+                        Lastly, we observe globally, the expected years of schooling. From the proportional symbol map
+                        above, we can see that
+                        there is a large concentration of dark colored and larger circle marks surrounding Europe, and
+                        majority of the lighter and smaller
+                        marks appear in Africa.
+                    </h3>
 
+                </div>
+                <div class="grid-item">
+                    <h3 id="symbolMapText">Based on all these findings so far, we can conclude that there
+                        is a
+                        <b>high
+                            correlation</b> between
+                        education amongst the population of a country, and socioeconomic factors such as national income
+                        and
+                        unemployment.
+                    </h3>
+                </div>
             </div>
         </div>
+
+    </div>
     </div>
 </body>
 
