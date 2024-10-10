@@ -58,7 +58,7 @@
         {
             "mark": {
                 "type": "geoshape",
-                "fill": "#96b6d2"
+                "fill": "#d9eeff"
             },
             "data": {
                 "sphere": true
