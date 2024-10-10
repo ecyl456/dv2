@@ -4,7 +4,7 @@
 <head>
     <style type="text/css">
         body {
-            background: linear-gradient(to bottom, #e9fbfa, #a1bac8);
+            background: linear-gradient(#a1bac8);
             font-family: sans-serif;
             margin: 5%;
         }
@@ -22,18 +22,19 @@
         }
 
         h2 {
-            font-size: 35px;
+            font-size: 29px;
             font-weight: heavy;
             color: rgb(41, 66, 69);
-            margin: 5%;
+            margin: 2%;
             text-align: center;
 
         }
 
         h3 {
-            font-size: 16px;
+            font-size: 19px;
             text-align: center;
             font-weight: normal;
+            padding-right: 1%;
         }
 
         #title-description {
@@ -44,6 +45,7 @@
             border-radius: 1%;
             border-style: solid;
             border-color: black;
+            background-color: rgb(172, 189, 191);
 
         }
 
@@ -53,6 +55,7 @@
         #stackBar,
         #propSym {
             padding: 2%;
+            background-color: white;
         }
 
         #twoCol {
@@ -68,14 +71,26 @@
 
         h3 #mainTitle {
             font-size: 70px;
+            font-weight: normal;
         }
 
 
-        .grid-container .grid-item {
+        .grid-container {
             justify-content: center;
             justify-items: center;
             align-content: center;
             text-align: center;
+            border-radius: 1%;
+            border-style: solid;
+            border-color: black;
+        }
+
+        .grid-item {
+            justify-content: center;
+            justify-items: center;
+            align-content: center;
+            text-align: center;
+            padding: 2%;
         }
 
 
@@ -85,10 +100,19 @@
             justify-content: center;
             padding: 10px;
             font-size: 20px;
+            border-radius: 1%;
+            border-style: solid;
+            border-color: black;
         }
 
         #symbolMapText {
+            text-align: center;
+        }
+
+        p {
             text-align: left;
+            padding-left: 1%;
+            font-size: small;
         }
     </style>
     <meta charset="UTF-8">
@@ -166,10 +190,11 @@
     </div>
     <hr>
 
-    <h2>Gross National Income Per Capita, Top 10 Countries</h2>
 
     <div class="grid-container" id="twoCol">
         <div class="grid-item">
+            <h3><b>Gross National Income Per Capita, Top 10 Countries</b></h3>
+
             <div id="donut"></div>
 
         </div>
@@ -188,10 +213,10 @@
     </div>
 
     <hr>
-    <h2>Primary, Secondary & Tertiary Enrolment Ratio</h2>
 
     <div class="grid-container" id="twoCol">
         <div class="grid-item">
+            <h3><b>Primary, Secondary & Tertiary Enrolment Ratio</b></h3>
             <div id="stackBar"></div>
         </div>
         <div class="grid-item">
@@ -213,11 +238,13 @@
     </div>
 
     <hr>
+
     <div class="grid-container">
         <div class="grid-item" id="text">
             <h2>Global Expected Years of Schooling</h2>
+
             <div id="propSym"></div>
-            <div class="grid-container" id="twoCol">
+            <div id="twoCol">
                 <div class="grid-item">
                     <h3 id="symbolMapText">
                         Lastly, we observe globally, the expected years of schooling. From the proportional symbol map
@@ -240,8 +267,28 @@
                 </div>
             </div>
         </div>
-
     </div>
+    <br>
+    <div class="grid-container">
+        <p><b>Sources:</b></p>
+        <p>Multiple sources compiled by World Bank (2024) – processed by Our World in Data. “Unemployment rate”
+            [dataset]. International Labour Organization, “World Development Indicators” [original data]. Retrieved
+            October 11, 2024 from https://ourworldindata.org/grapher/unemployment-rate</p>
+        <p>Barro and Lee (2015); Lee and Lee (2016) – with major processing by Our World in Data. “Share of population
+            with no formal education” [dataset]. Barro and Lee, “Projections of Educational Attainment”; Lee and Lee,
+            “Human Capital in the Long Run” [original data]. Retrieved October 11, 2024 from
+            https://ourworldindata.org/grapher/share-of-population-15-years-and-older-with-no-education</p>
+        <p>UNDP, Human Development Report (2024) – with minor processing by Our World in Data. “Gross national income
+            (GNI) per capita” [dataset]. UNDP, Human Development Report, “Human Development Report 2023-2024” [original
+            data]. Retrieved October 11, 2024 from
+            https://ourworldindata.org/grapher/gross-national-income-per-capita-undp</p>
+        <p>UNESCO Institute for Statistics (2024) – processed by Our World in Data. “Lower secondary completion”
+            [dataset]. UNESCO Institute for Statistics, “UNESCO Institute for Statistics (UIS) - Education” [original
+            data].</p>
+        <p>UNDP, Human Development Report (2024) – with minor processing by Our World in Data. “Expected years of
+            schooling” [dataset]. UNDP, Human Development Report, “Human Development Report 2023-2024” [original data].
+            Retrieved October 11, 2024 from https://ourworldindata.org/grapher/expected-years-of-schooling</p>
+
     </div>
 </body>
 

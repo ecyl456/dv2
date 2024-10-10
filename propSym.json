@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 1030,
-    "height": 600,
+    "width": 1090,
+    "height": 550,
     "params": [
         {
             "name": "Year_selection",
@@ -24,6 +24,25 @@
     },
     "layer": [
         {
+            "mark": {
+                "type": "geoshape",
+                "fill": "#bbd8f2"
+            },
+            "data": {
+                "sphere": true
+            }
+        },
+        {
+            "mark": {
+                "type": "geoshape",
+                "stroke": "black",
+                "strokeWidth": 0.5
+            },
+            "data": {
+                "graticule": true
+            }
+        },
+        {
             "data": {
                 "url": "https://raw.githubusercontent.com/ecyl456/week9_homework/refs/heads/main/ne_1_.json",
                 "format": {
@@ -34,7 +53,7 @@
             "mark": {
                 "type": "geoshape",
                 "fill": "#6375af4e",
-                "stroke": "white"
+                "stroke": "grey"
             }
         },
         {
