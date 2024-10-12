@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 560,
+    "width": 450,
     "height": 200,
     "data": {
         "url": "https://raw.githubusercontent.com/ecyl456/dv2/refs/heads/main/datasets/primary-secondary-enrollment-completion-rates.csv"
@@ -112,6 +112,10 @@
                 "title": "Country"
             },
             {
+                "field": "Enrollment Type",
+                "title": "Enrollment Type"
+            },
+            {
                 "field": "Year",
                 "title": "Year"
             },
@@ -126,7 +130,7 @@
             "stroke": "transparent"
         },
         "legend": {
-            "orient": "bottom",
+            "orient": "top",
             "offset": 30
         },
         "padding": {

@@ -58,7 +58,7 @@
         {
             "mark": {
                 "type": "geoshape",
-                "fill": "#d9eeff"
+                "fill": "#bbd8f2"
             },
             "data": {
                 "sphere": true
@@ -84,17 +84,8 @@
             },
             "mark": {
                 "type": "geoshape",
-                "stroke": "grey",
-                "strokeWidth": 1
-            },
-            "encoding": {
-                "tooltip": [
-                    {
-                        "field": "properties.NAME",
-                        "type": "nominal",
-                        "title": "Country"
-                    }
-                ]
+                "fill": "lightgrey",
+                "stroke": "grey"
             }
         },
         {
@@ -210,16 +201,16 @@
                     },
                     "encoding": {
                         "x": {
-                            "value": 20
+                            "value": 830
                         },
                         "y": {
-                            "value": 460
+                            "value": 490
                         },
                         "x2": {
-                            "value": 240
+                            "value": 600
                         },
                         "y2": {
-                            "value": 540
+                            "value": 420
                         }
                     }
                 },
@@ -240,10 +231,10 @@
                             "value": "Country with the highest rate:"
                         },
                         "x": {
-                            "value": 30
+                            "value": 620
                         },
                         "y": {
-                            "value": 485
+                            "value": 440
                         }
                     }
                 },
@@ -251,7 +242,7 @@
                     "mark": {
                         "type": "text",
                         "fontSize": 15,
-                        "stroke": "black",
+                        "stroke": "red",
                         "strokeWidth": 1,
                         "strokeOpacity": 1,
                         "cornerRadius": 5,
@@ -266,10 +257,10 @@
                             "title": "Country with Highest Rate"
                         },
                         "x": {
-                            "value": 30
+                            "value": 620
                         },
                         "y": {
-                            "value": 510
+                            "value": 460
                         }
                     }
                 },
@@ -277,7 +268,7 @@
                     "mark": {
                         "type": "text",
                         "fontSize": 15,
-                        "stroke": "black",
+                        "stroke": "red",
                         "strokeWidth": 1,
                         "strokeOpacity": 1,
                         "cornerRadius": 5,
@@ -290,10 +281,10 @@
                             "title": "Country with Highest Rate"
                         },
                         "x": {
-                            "value": 30
+                            "value": 620
                         },
                         "y": {
-                            "value": 525
+                            "value": 475
                         }
                     }
                 }

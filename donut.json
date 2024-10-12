@@ -1,98 +1,126 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 380,
+    "width": 350,
     "height": 200,
     "description": "A donut chart with the most recent year's data.",
-    "params": [
+    "layer": [
         {
-            "name": "Year_selection",
-            "value": 2022,
-            "bind": {
-                "input": "range",
-                "min": 1991,
-                "max": 2022,
-                "step": 1,
-                "name": "Year: "
-            }
-        }
-    ],
-    "data": {
-        "url": "https://raw.githubusercontent.com/ecyl456/dv2/refs/heads/main/datasets/gross-national-income-per-capita-undp.csv"
-    },
-    "transform": [
-        {
-            "filter": "datum.Year == Year_selection"
-        },
-        {
-            "calculate": "toNumber(datum['Gross national income per capita'])",
-            "as": "GNI_per_capita"
-        },
-        {
-            "filter": "isValid(datum.GNI_per_capita) && !isNaN(datum.GNI_per_capita)"
-        },
-        {
-            "window": [
+            "data": {
+                "url": "https://raw.githubusercontent.com/ecyl456/dv2/refs/heads/main/datasets/gross-national-income-per-capita-undp.csv"
+            },
+            "transform": [
                 {
-                    "op": "rank",
-                    "as": "rank"
+                    "filter": "datum.Year == 2022"
+                },
+                {
+                    "calculate": "toNumber(datum['Gross national income per capita'])",
+                    "as": "GNI_per_capita"
+                },
+                {
+                    "filter": "isValid(datum.GNI_per_capita) && !isNaN(datum.GNI_per_capita)"
+                },
+                {
+                    "window": [
+                        {
+                            "op": "rank",
+                            "as": "rank"
+                        }
+                    ],
+                    "sort": [
+                        {
+                            "field": "GNI_per_capita",
+                            "order": "descending"
+                        }
+                    ]
+                },
+                {
+                    "filter": "datum.rank <= 10"
                 }
             ],
-            "sort": [
-                {
+            "mark": {
+                "type": "arc",
+                "innerRadius": 50
+            },
+            "encoding": {
+                "theta": {
                     "field": "GNI_per_capita",
-                    "order": "descending"
-                }
-            ]
-        },
-        {
-            "filter": "datum.rank <= 10"
-        }
-    ],
-    "mark": {
-        "type": "arc",
-        "innerRadius": 50
-    },
-    "encoding": {
-        "theta": {
-            "field": "GNI_per_capita",
-            "type": "quantitative"
-        },
-        "color": {
-            "field": "Entity",
-            "type": "nominal",
-            "scale": {
-                "range": [
-                    "#f09784",
-                    "#a6daed",
-                    "#52a397",
-                    "#627067",
-                    "#5d357a",
-                    "#c6dba2",
-                    "#3498DB",
-                    "#32c9bf",
-                    "#a36288",
-                    "#a7a4bf"
+                    "type": "quantitative"
+                },
+                "color": {
+                    "field": "Entity",
+                    "type": "nominal",
+                    "scale": {
+                        "range": [
+                            "#A89ACD",
+                            "#80D6EB",
+                            "#967BB6",
+                            "#F7B4A2",
+                            "#70A9A1",
+                            "#b2edb7",
+                            "#607580",
+                            "#a3bae7",
+                            "#60819c",
+                            "#fab9cc"
+                        ]
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "Entity",
+                        "type": "nominal"
+                    },
+                    {
+                        "field": "Year",
+                        "title": "Year",
+                        "type": "ordinal"
+                    },
+                    {
+                        "field": "GNI_per_capita",
+                        "title": "Gross National Income Per Capita",
+                        "type": "quantitative",
+                        "format": ",d"
+                    }
                 ]
             }
         },
-        "tooltip": [
-            {
-                "field": "Entity",
-                "type": "nominal"
+        {
+            "data": {
+                "url": "https://raw.githubusercontent.com/ecyl456/dv2/refs/heads/main/datasets/gross-national-income-per-capita-undp.csv"
             },
-            {
-                "field": "GNI_per_capita",
-                "title": "Gross National Income Per Capita",
-                "type": "quantitative",
-                "format": ",d"
-            },
-            {
-                "field": "Year",
-                "title": "Year",
-                "type": "ordinal"
+            "mark": "text",
+            "encoding": {
+                "text": {
+                    "value": "Highest GNI Country"
+                },
+                "color": {
+                    "value": "darkblue"
+                },
+                "x": {
+                    "value": 335
+                },
+                "y": {
+                    "value": 115
+                }
             }
-        ]
-    },
+        },
+        {
+            "data": {
+                "url": "https://raw.githubusercontent.com/ecyl456/dv2/refs/heads/main/datasets/gross-national-income-per-capita-undp.csv"
+            },
+            "mark": "circle",
+            "encoding": {
+                "color": {
+                    "value": "darkblue"
+                },
+                "x": {
+                    "value": 250
+                },
+                "y": {
+                    "value": 115
+                }
+            }
+        }
+    ],
     "config": {
         "view": {
             "stroke": "transparent"
@@ -102,9 +130,8 @@
             "padding": 30
         },
         "padding": {
-            "top": 30,
+            "top": 20,
             "left": 100,
-            "right": 20,
             "bottom": 40
         }
     }

@@ -144,6 +144,10 @@
                         "title": "Country"
                     },
                     {
+                        "field": "Year",
+                        "title": "Year"
+                    },
+                    {
                         "field": "expected_years",
                         "title": "Expected Years of Schooling"
                     }

@@ -32,7 +32,7 @@
 
         h3 {
             font-size: 19px;
-            text-align: center;
+            text-align: left;
             font-weight: normal;
             padding-right: 1%;
         }
@@ -45,7 +45,7 @@
             border-radius: 1%;
             border-style: solid;
             border-color: black;
-            background-color: rgb(172, 189, 191);
+            background-color: rgb(206, 222, 224);
 
         }
 
@@ -56,6 +56,10 @@
         #propSym {
             padding: 2%;
             background-color: white;
+        }
+
+        #stackBar {
+            margin-top: 5%;
         }
 
         #twoCol {
@@ -69,9 +73,10 @@
             justify-content: center;
         }
 
-        h3 #mainTitle {
-            font-size: 70px;
-            font-weight: normal;
+        #mainTitle {
+            font-size: 50px;
+            font-weight: bold;
+            font-family: serif;
         }
 
 
@@ -93,6 +98,10 @@
             padding: 2%;
         }
 
+        #donutText {
+            padding-top: 5%;
+        }
+
 
         #text {
             text-align: center;
@@ -106,13 +115,21 @@
         }
 
         #symbolMapText {
-            text-align: center;
+            text-align: left;
         }
 
         p {
             text-align: left;
             padding-left: 1%;
             font-size: small;
+        }
+
+        #avg {
+            text-align: center;
+        }
+
+        #stackText {
+            margin-top: 5%;
         }
     </style>
     <meta charset="UTF-8">
@@ -170,7 +187,7 @@
     <div class="grid-container">
         <div class="grid-item" id="text">
             <h2>Combined Percentage of Population Between 15 and 64 Years without Education</h2>
-            <p>*Averaged across 1998-2022</p>
+            <p id="avg">*Averaged across 1998-2022</p>
 
             <div id="bar"></div>
 
@@ -193,17 +210,16 @@
 
     <div class="grid-container" id="twoCol">
         <div class="grid-item">
-            <h3><b>Gross National Income Per Capita, Top 10 Countries</b></h3>
-
+            <h2>Gross National Income Per Capita, <br>Top 10 Countries(2022)</h2>
             <div id="donut"></div>
-
         </div>
 
         <div class="grid-item">
-            <h3>
+            <h3 id="donutText">
                 The donut chart in comparison to the previous charts shows that countries primarily among the top 10
                 globally
-                with the highest gross national income, <b>remains largely consistent across the years.</b> Among these
+                with the highest gross national income, <b>remains largely consistent during the year 2022.</b> Among
+                these
                 countries, we can observe that <em>many are among Asia and Europe, but there are no African
                     countries among
                     the top 10
@@ -215,8 +231,8 @@
     <hr>
 
     <div class="grid-container" id="twoCol">
-        <div class="grid-item">
-            <h3><b>Primary, Secondary & Tertiary Enrolment Ratio</b></h3>
+        <div class="grid-item" id="stackText">
+            <h2> Primary, Secondary & Tertiary <br>Enrolment Ratio</h2>
             <div id="stackBar"></div>
         </div>
         <div class="grid-item">
